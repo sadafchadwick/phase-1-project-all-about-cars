@@ -1,224 +1,248 @@
 {
-    "sedan": [
+    "sedan": 
+    [
         {
             "id": 1,
-            "year": "",
-            "make": "",
-            "model": "",
-            "image": ""
+            "year": "2023",
+            "make": "Honda",
+            "model": "Civic",
+            "image": "https://www.kbb.com/honda/civic/",
+            "review": "Best Compact Car Best Buy of 2023!"
         },
         {
             "id": 2,
-            "year": "",
-            "make": "",
-            "model": "",
-            "image": ""
+            "year": "2022",
+            "make": "Toyota",
+            "model": "Avalon",
+            "image": "https://www.kbb.com/toyota/avalon/",
+            "review": "Spacious with a strong yet smooth engine!"
         },
         {
             "id": 3,
-            "year": "",
-            "make": "",
-            "model": "",
-            "image": ""
+            "year": "2023",
+            "make": "Mazda",
+            "model": "MX-5 Miata",
+            "image": "https://www.kbb.com/mazda/mx-5-miata/",
+            "review": "Great looking car built to last!"
         },
         {
             "id": 4,
-            "year": "",
-            "make": "",
-            "model": "",
-            "image": ""
+            "year": "2022",
+            "make": "Hyundai",
+            "model": "Accent",
+            "image": "https://www.kbb.com/hyundai/accent/",
+            "review": "This car has amazing fuel economy!"
         },
         {
             "id": 5,
             "year": "",
             "make": "",
             "model": "",
-            "image": ""
+            "image": "",
+            "review": ""
         },
         {
             "id": 6,
             "year": "",
             "make": "",
             "model": "",
-            "image": ""
+            "image": "",
+            "review": ""
         },
         {
             "id": 7,
             "year": "",
             "make": "",
             "model": "",
-            "image": ""
+            "image": "",
+            "review": ""
         },
         {
             "id": 8,
             "year": "",
             "make": "",
             "model": "",
-            "image": ""
+            "image": "",
+            "review": ""
         },
         {
             "id": 9,
             "year": "",
             "make": "",
             "model": "",
-            "image": ""
+            "image": "",
+            "review": ""
         },
         {
             "id": 10,
             "year": "",
             "make": "",
             "model": "",
-            "image": ""
+            "image": "",
+            "review": ""
         }
-],
+    ],
 
-    "sedan mouseover": [
-        {
-            "id": 11,
-            "brand": "",
-            "image": "",
-            "fuel ecomony": "",
-            "horsepower": ""
-        },
-        {
-            "id": 12,
-            "brand": "",
-            "image": "",
-            "fuel ecomony": "",
-            "horsepower": ""
-        },
-        {
-            "id": 13,
-            "brand": "",
-            "image": "",
-            "fuel ecomony": "",
-            "horsepower": ""
-        },
-        {
-            "id": 14,
-            "brand": "",
-            "image": "",
-            "fuel ecomony": "",
-            "horsepower": ""
-        },
-        {
-            "id": 15,
-            "brand": "",
-            "image": "",
-            "fuel ecomony": "",
-            "horsepower": ""
-        },
-        {
-            "id": 16,
-            "brand": "",
-            "image": "",
-            "fuel ecomony": "",
-            "horsepower": ""
-        },
-        {
-            "id": 17,
-            "brand": "",
-            "image": "",
-            "fuel ecomony": "",
-            "horsepower": ""
-        },
-        {
-            "id": 18,
-            "brand": "",
-            "image": "",
-            "fuel ecomony": "",
-            "horsepower": ""
-        },
-        {
-            "id": 19,
-            "brand": "",
-            "image": "",
-            "fuel ecomony": "",
-            "horsepower": ""
-        },
-        {
-            "id": 20,
-            "brand": "",
-            "image": "",
-            "fuel ecomony": "",
-            "horsepower": ""
-        }
-],
+    "sedan mouseover": 
+    [
+    {
+        "id": 11,
+        "brand": "Honda Civic",
+        "image": "https://www.kbb.com/honda/civic/",
+        "fuel ecomony": "29-36 mpg",
+        "horsepower": "158-200 hp"
+    },
+    {
+        "id": 12,
+        "brand": "Toyota Avalon",
+        "image": "https://www.kbb.com/toyota/avalon/",
+        "fuel ecomony": "25-26 mpg",
+        "horsepower": "301 hp"
+    },
+    {
+        "id": 13,
+        "brand": "Mazda MX-5 Miata",
+        "image": "https://www.kbb.com/mazda/mx-5-miata/",
+        "fuel ecomony": "29-30 mpg",
+        "horsepower": "181 hp"
+    },
+    {
+        "id": 14,
+        "brand": "",
+        "image": "",
+        "fuel ecomony": "",
+        "horsepower": ""
+    },
+    {
+        "id": 15,
+        "brand": "",
+        "image": "",
+        "fuel ecomony": "",
+        "horsepower": ""
+    },
+    {
+        "id": 16,
+        "brand": "",
+        "image": "",
+        "fuel ecomony": "",
+        "horsepower": ""
+    },
+    {
+        "id": 17,
+        "brand": "",
+        "image": "",
+        "fuel ecomony": "",
+        "horsepower": ""
+    },
+    {
+        "id": 18,
+        "brand": "",
+        "image": "",
+        "fuel ecomony": "",
+        "horsepower": ""
+    },
+    {
+        "id": 19,
+        "brand": "",
+        "image": "",
+        "fuel ecomony": "",
+        "horsepower": ""
+    },
+    {
+        "id": 20,
+        "brand": "",
+        "image": "",
+        "fuel ecomony": "",
+        "horsepower": ""
+    }
+    ],
 
-"suv": [
+    "suv": 
+    [
     {
         "id": 21,
         "year": "",
         "make": "",
         "model": "",
-        "image": ""
+        "image": "",
+        "reviews": ""
     },
     {
         "id": 22,
         "year": "",
         "make": "",
         "model": "",
-        "image": ""
+        "image": "",
+        "reviews": ""
     },
     {
         "id": 23,
         "year": "",
         "make": "",
         "model": "",
-        "image": ""
+        "image": "",
+        "reviews": ""
     },
     {
         "id": 24,
         "year": "",
         "make": "",
         "model": "",
-        "image": ""
+        "image": "",
+        "reviews": ""
     },
     {
         "id": 25,
         "year": "",
         "make": "",
         "model": "",
-        "image": ""
+        "image": "",
+        "reviews": ""
     },
     {
         "id": 26,
         "year": "",
         "make": "",
         "model": "",
-        "image": ""
+        "image": "",
+        "reviews": ""
     },
     {
         "id": 27,
         "year": "",
         "make": "",
         "model": "",
-        "image": ""
+        "image": "",
+        "reviews": ""
     },
     {
         "id": 28,
         "year": "",
         "make": "",
         "model": "",
-        "image": ""
+        "image": "",
+        "reviews": ""
     },
     {
         "id": 29,
         "year": "",
         "make": "",
         "model": "",
-        "image": ""
+        "image": "",
+        "reviews": ""
     },
     {
         "id": 30,
         "year": "",
         "make": "",
         "model": "",
-        "image": ""
+        "image": "",
+        "reviews": ""
     }
-],
+    ],
 
-"suv mouseover": [
+    "suv mouseover": 
+    [
     {
         "id": 31,
         "brand": "",
@@ -289,82 +313,95 @@
         "fuel ecomony": "",
         "horsepower": ""
     }
-],
+    ],
 
-"trucks": [
+    "trucks": 
+    [
     {
         "id": 41,
         "year": "2023",
         "make": "Toyota",
         "model": "Tacoma",
-        "image": "https://www.kbb.com/toyota/tacoma/2024/"
+        "image": "https://www.kbb.com/toyota/tacoma/2024/",
+        "reviews": "Strong truck that can stand up to punishment!"
     },
     {
         "id": 42,
         "year": "2023",
         "make": "Chevrolet",
         "model": "Colorado",
-        "image": "https://www.kbb.com/chevrolet/colorado/"
+        "image": "https://www.kbb.com/chevrolet/colorado/",
+        "reviews": "This truck is an excellent ride and handling."
+
     },
     {
         "id": 43,
         "year": "2023",
         "make": "Nissan",
         "model": "Titan Crew Cab",
-        "image": "https://www.kbb.com/nissan/titan-xd/"
+        "image": "https://www.kbb.com/nissan/titan-xd/",
+        "reviews": "Highly capable truck with a comfortable cabin!"
     },
     {
         "id": 44,
         "year": "2023",
         "make": "GMC",
         "model": "Sierra 1500 Crew Cab",
-        "image": "https://www.kbb.com/gmc/sierra-1500-crew-cab/2023/"
+        "image": "https://www.kbb.com/gmc/sierra-1500-crew-cab/2023/",
+        "reviews": "Amazing truck! Has a strong range of engines with luxurious upper trims!"
     },
     {
         "id": 45,
         "year": "2023",
         "make": "Dodge",
         "model": "Ram 1500",
-        "image": "https://www.kbb.com/ram/1500-trucks/"
+        "image": "https://www.kbb.com/ram/1500-trucks/",
+        "reviews": "Love the standard LED hitch light!"
     },
     {
         "id": 46,
         "year": "2023",
         "make": "Ford",
         "model": "F150",
-        "image": "https://www.kbb.com/ford/f150-supercrew-cab/2023/"
+        "image": "https://www.kbb.com/ford/f150-supercrew-cab/2023/",
+        "reviews": "This is the highest-rated full-size truck of 2023."
     },
     {
         "id": 47,
         "year": "2023",
         "make": "Jeep",
         "model": "Gladiator",
-        "image": "https://www.kbb.com/jeep/gladiator/"
+        "image": "https://www.kbb.com/jeep/gladiator/",
+        "reviews": "Love having the convenience of a truck with the unique look of a Jeep!"
     },
     {
         "id": 48,
         "year": "2023",
         "make": "Hyundai",
         "model": "Santa Cruz",
-        "image": "https://www.kbb.com/hyundai/santa-cruz/"
+        "image": "https://www.kbb.com/hyundai/santa-cruz/",
+        "reviews": "The SUV-like comfort with the truck-like utility can't be beat!"
     },
     {
         "id": 49,
         "year": "2023",
         "make": "Honda",
         "model": "Ridgeline",
-        "image": "https://www.kbb.com/honda/ridgeline/"
+        "image": "https://www.kbb.com/honda/ridgeline/",
+        "reviews": "You can't go wrong with an all-wheel drive truck!"
     },
     {
         "id": 50,
         "year": "2023",
         "make": "Ford",
         "model": "Ranger",
-        "image": "https://www.kbb.com/ford/ranger/"
+        "image": "https://www.kbb.com/ford/ranger/",
+        "reviews": "For a small truck this thing can tow a load!"
     }
-],
+    ],
 
-"truck mouseover": [
+    "truck mouseover": 
+    [
     {
         "id": 51,
         "brand": "Toyota Tacoma",
@@ -435,5 +472,5 @@
         "fuel ecomony": "22-23 mpg",
         "horsepower": "270 hp"
     }
-]
+    ]
 }
