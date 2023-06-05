@@ -7,7 +7,7 @@
             "make": "Honda",
             "model": "Civic",
             "image": "https://www.kbb.com/honda/civic/",
-            "review": "Best Compact Car Best Buy of 2023!"
+            "reviews": "Best Compact Car Best Buy of 2023!"
         },
         {
             "id": 2,
@@ -15,7 +15,7 @@
             "make": "Toyota",
             "model": "Avalon",
             "image": "https://www.kbb.com/toyota/avalon/",
-            "review": "Spacious with a strong yet smooth engine!"
+            "reviews": "Spacious with a strong yet smooth engine!"
         },
         {
             "id": 3,
@@ -23,7 +23,7 @@
             "make": "Mazda",
             "model": "MX-5 Miata",
             "image": "https://www.kbb.com/mazda/mx-5-miata/",
-            "review": "Great looking car built to last!"
+            "reviews": "Great looking car built to last!"
         },
         {
             "id": 4,
@@ -31,55 +31,55 @@
             "make": "Hyundai",
             "model": "Accent",
             "image": "https://www.kbb.com/hyundai/accent/",
-            "review": "This car has amazing fuel economy!"
+            "reviews": "This car has amazing fuel economy!"
         },
         {
             "id": 5,
-            "year": "",
-            "make": "",
-            "model": "",
-            "image": "",
-            "review": ""
+            "year": "2023",
+            "make": "Kia",
+            "model": "Niro",
+            "image": "https://www.kbb.com/kia/niro/",
+            "reviews": "The total redesign gives this car a unique look I love!"
         },
         {
             "id": 6,
-            "year": "",
-            "make": "",
-            "model": "",
-            "image": "",
-            "review": ""
+            "year": "2023",
+            "make": "Chevrolet",
+            "model": "Corvette",
+            "image": "https://www.kbb.com/chevrolet/corvette/",
+            "reviews": "Unmatched performance and styling!"
         },
         {
             "id": 7,
-            "year": "",
-            "make": "",
-            "model": "",
-            "image": "",
-            "review": ""
+            "year": "2023",
+            "make": "BMW",
+            "model": "2 Series",
+            "image": "https://www.kbb.com/bmw/2-series/",
+            "reviews": "You can't beat the amazing milage of this stylish car!"
         },
         {
             "id": 8,
-            "year": "",
-            "make": "",
-            "model": "",
-            "image": "",
-            "review": ""
+            "year": "2023",
+            "make": "Mercedes-Benz",
+            "model": "E-Class",
+            "image": "https://www.kbb.com/mercedes-benz/e-class/?bodystyle=convertible",
+            "reviews": "Love the cutting-edge technology incorporated into this luxurious sedan!"
         },
         {
             "id": 9,
-            "year": "",
-            "make": "",
-            "model": "",
-            "image": "",
-            "review": ""
+            "year": "2024",
+            "make": "MINI",
+            "model": "Convertible",
+            "image": "https://www.kbb.com/mini/convertible/",
+            "reviews": "Can't get enough of driving this fun, zippy car!"
         },
         {
             "id": 10,
-            "year": "",
-            "make": "",
-            "model": "",
-            "image": "",
-            "review": ""
+            "year": "2023",
+            "make": "Chevrolet",
+            "model": "Bolt EV",
+            "image": "https://www.kbb.com/chevrolet/bolt-ev/",
+            "reviews": "Help the environment while looking good? Yes please!"
         }
     ],
 
@@ -108,52 +108,52 @@
     },
     {
         "id": 14,
-        "brand": "",
-        "image": "",
-        "fuel ecomony": "",
-        "horsepower": ""
+        "brand": "Hyundai Accent",
+        "image": "https://www.kbb.com/hyundai/accent/",
+        "fuel ecomony": "33-36 mpg",
+        "horsepower": "120 hp"
     },
     {
         "id": 15,
-        "brand": "",
-        "image": "",
-        "fuel ecomony": "",
-        "horsepower": ""
+        "brand": "Kia Niro",
+        "image": "https://www.kbb.com/kia/niro/",
+        "fuel ecomony": "49 mpg",
+        "horsepower": "139 hp"
     },
     {
         "id": 16,
-        "brand": "",
-        "image": "",
-        "fuel ecomony": "",
-        "horsepower": ""
+        "brand": "Chevrolet Corvette",
+        "image": "https://www.kbb.com/chevrolet/corvette/",
+        "fuel ecomony": "15-19 mpg",
+        "horsepower": "490-670 hp"
     },
     {
         "id": 17,
-        "brand": "",
-        "image": "",
-        "fuel ecomony": "",
-        "horsepower": ""
+        "brand": "BMW 2 Series",
+        "image": "https://www.kbb.com/bmw/2-series/",
+        "fuel ecomony": "26-29 mpg",
+        "horsepower": "228-382 hp"
     },
     {
         "id": 18,
-        "brand": "",
-        "image": "",
-        "fuel ecomony": "",
-        "horsepower": ""
+        "brand": "Mercedes-Benz E-Class",
+        "image": "https://www.kbb.com/mercedes-benz/e-class/?bodystyle=convertible",
+        "fuel ecomony": "24-26 mpg",
+        "horsepower": "255-362 hp"
     },
     {
         "id": 19,
-        "brand": "",
-        "image": "",
-        "fuel ecomony": "",
-        "horsepower": ""
+        "brand": "MINI Convertible",
+        "image": "https://www.kbb.com/mini/convertible/",
+        "fuel ecomony": "27-31 mpg",
+        "horsepower": "134-228 hp"
     },
     {
         "id": 20,
-        "brand": "",
-        "image": "",
-        "fuel ecomony": "",
-        "horsepower": ""
+        "brand": "Chevrolet Bolt EV",
+        "image": "https://www.kbb.com/chevrolet/bolt-ev/",
+        "fuel ecomony": "EV Range 259 miles",
+        "horsepower": "200 hp"
     }
     ],
 
