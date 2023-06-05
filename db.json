@@ -161,83 +161,83 @@
     [
     {
         "id": 21,
-        "year": "",
-        "make": "",
-        "model": "",
-        "image": "",
-        "reviews": ""
+        "year": "2023",
+        "make": "Kia",
+        "model": "Telluride",
+        "image": "https://www.kbb.com/kia/telluride/",
+        "reviews": "Tis is the 3-Row Midsize SUV Best Buy for 2023."
     },
     {
         "id": 22,
-        "year": "",
-        "make": "",
-        "model": "",
-        "image": "",
-        "reviews": ""
+        "year": "2023",
+        "make": "GMC",
+        "model": "Yukon",
+        "image": "https://www.kbb.com/gmc/yukon/",
+        "reviews": "This SUV has an incredibly roomy 3rd-row seating!"
     },
     {
         "id": 23,
-        "year": "",
-        "make": "",
-        "model": "",
-        "image": "",
-        "reviews": ""
+        "year": "2024",
+        "make": "Kia",
+        "model": "Seltos",
+        "image": "https://www.kbb.com/kia/seltos/",
+        "reviews": "If you love the latest tech, this SUV has it all!"
     },
     {
         "id": 24,
-        "year": "",
-        "make": "",
-        "model": "",
-        "image": "",
-        "reviews": ""
+        "year": "2024",
+        "make": "Subaru",
+        "model": "Crosstrek",
+        "image": "https://www.kbb.com/subaru/crosstrek/",
+        "reviews": "The standard all-wheel drive lets you take this SUV anywhere!"
     },
     {
         "id": 25,
-        "year": "",
-        "make": "",
-        "model": "",
-        "image": "",
-        "reviews": ""
+        "year": "2023",
+        "make": "Toyota",
+        "model": "RAV4",
+        "image": "https://www.kbb.com/toyota/rav4/",
+        "reviews": "The safety features give me confidence to drive in the busy cities!"
     },
     {
         "id": 26,
-        "year": "",
-        "make": "",
-        "model": "",
-        "image": "",
-        "reviews": ""
+        "year": "2023",
+        "make": "Ford",
+        "model": "Bronco Sport",
+        "image": "https://www.kbb.com/ford/bronco-sport/",
+        "reviews": "A true classic with modern safety features!"
     },
     {
         "id": 27,
-        "year": "",
-        "make": "",
-        "model": "",
-        "image": "",
-        "reviews": ""
+        "year": "2023",
+        "make": "Hyundai",
+        "model": "Tucson",
+        "image": "https://www.kbb.com/hyundai/tucson/",
+        "reviews": "For value and space, this SUV has it all!"
     },
     {
         "id": 28,
-        "year": "",
-        "make": "",
-        "model": "",
-        "image": "",
-        "reviews": ""
+        "year": "2023",
+        "make": "Jeep",
+        "model": "Grand Cherokee",
+        "image": "https://www.kbb.com/jeep/grand-cherokee/",
+        "reviews": "Amazing handling on and off the road!"
     },
     {
         "id": 29,
-        "year": "",
-        "make": "",
-        "model": "",
-        "image": "",
-        "reviews": ""
+        "year": "2023",
+        "make": "Chevrolet",
+        "model": "Suburban",
+        "image": "https://www.kbb.com/chevrolet/suburban/",
+        "reviews": "So much room our large family is finally able to travel in one vehicle!"
     },
     {
         "id": 30,
-        "year": "",
-        "make": "",
-        "model": "",
-        "image": "",
-        "reviews": ""
+        "year": "2023",
+        "make": "Volkswagen",
+        "model": "Tiguan",
+        "image": "https://www.kbb.com/volkswagen/tiguan/",
+        "reviews": "You will enjoy the European design along with the 3rd-row seating!"
     }
     ],
 
@@ -245,73 +245,73 @@
     [
     {
         "id": 31,
-        "brand": "",
-        "image": "",
-        "fuel ecomony": "",
-        "horsepower": ""
+        "brand": "Kia Telluride",
+        "image": "3-Row Midsize SUV Best Buy for 2023",
+        "fuel ecomony": "21-23 mpg",
+        "horsepower": "291 hp"
     },
     {
         "id": 32,
-        "brand": "",
-        "image": "",
-        "fuel ecomony": "",
-        "horsepower": ""
+        "brand": "GMC Yukon",
+        "image": "https://www.kbb.com/gmc/yukon/",
+        "fuel ecomony": "16-17 mpg",
+        "horsepower": "355-420 hp"
     },
     {
         "id": 33,
-        "brand": "",
-        "image": "",
-        "fuel ecomony": "",
-        "horsepower": ""
+        "brand": "Kia Seltos",
+        "image": "https://www.kbb.com/kia/seltos/",
+        "fuel ecomony": "26-31 mpg",
+        "horsepower": "146-195 hp"
     },
     {
         "id": 34,
-        "brand": "",
-        "image": "",
-        "fuel ecomony": "",
-        "horsepower": ""
+        "brand": "Subaru Crosstrek",
+        "image": "https://www.kbb.com/subaru/crosstrek/",
+        "fuel ecomony": "29 mpg",
+        "horsepower": "152-182 hp"
     },
     {
         "id": 35,
-        "brand": "",
-        "image": "",
-        "fuel ecomony": "",
-        "horsepower": ""
+        "brand": "2023",
+        "image": "Toyota RAV4",
+        "fuel ecomony": "28-30 mpg",
+        "horsepower": "203 hp"
     },
     {
         "id": 36,
-        "brand": "",
-        "image": "",
-        "fuel ecomony": "",
-        "horsepower": ""
+        "brand": "Ford Bronco Sport",
+        "image": "https://www.kbb.com/ford/bronco-sport/",
+        "fuel ecomony": "23-26 mpg",
+        "horsepower": "181-250 hp"
     },
     {
         "id": 37,
-        "brand": "",
-        "image": "",
-        "fuel ecomony": "",
-        "horsepower": ""
+        "brand": "Hyundai Tucson",
+        "image": "https://www.kbb.com/hyundai/tucson/",
+        "fuel ecomony": "25-28 mpg",
+        "horsepower": "187 hp"
     },
     {
         "id": 38,
-        "brand": "",
-        "image": "",
-        "fuel ecomony": "",
-        "horsepower": ""
+        "brand": "Jeep Grand Cherokee",
+        "image": "https://www.kbb.com/jeep/grand-cherokee/",
+        "fuel ecomony": "22 mpg",
+        "horsepower": "293 hp"
     },
     {
         "id": 39,
-        "brand": "",
-        "image": "",
-        "fuel ecomony": "",
-        "horsepower": ""
+        "brand": "Chevrolet Suburban",
+        "image": "https://www.kbb.com/chevrolet/suburban/",
+        "fuel ecomony": "16-17 mpg",
+        "horsepower": "355-420 hp"
     },
     {
         "id": 40,
-        "brand": "",
-        "image": "",
-        "fuel ecomony": "",
-        "horsepower": ""
+        "brand": "Volkswagen Tiguan",
+        "image": "https://www.kbb.com/volkswagen/tiguan/",
+        "fuel ecomony": "25-26 mpg",
+        "horsepower": "184 hp"
     }
     ],
 
