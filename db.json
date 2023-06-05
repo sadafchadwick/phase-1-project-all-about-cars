@@ -1,0 +1,439 @@
+{
+    "sedan": [
+        {
+            "id": 1,
+            "year": "",
+            "make": "",
+            "model": "",
+            "image": ""
+        },
+        {
+            "id": 2,
+            "year": "",
+            "make": "",
+            "model": "",
+            "image": ""
+        },
+        {
+            "id": 3,
+            "year": "",
+            "make": "",
+            "model": "",
+            "image": ""
+        },
+        {
+            "id": 4,
+            "year": "",
+            "make": "",
+            "model": "",
+            "image": ""
+        },
+        {
+            "id": 5,
+            "year": "",
+            "make": "",
+            "model": "",
+            "image": ""
+        },
+        {
+            "id": 6,
+            "year": "",
+            "make": "",
+            "model": "",
+            "image": ""
+        },
+        {
+            "id": 7,
+            "year": "",
+            "make": "",
+            "model": "",
+            "image": ""
+        },
+        {
+            "id": 8,
+            "year": "",
+            "make": "",
+            "model": "",
+            "image": ""
+        },
+        {
+            "id": 9,
+            "year": "",
+            "make": "",
+            "model": "",
+            "image": ""
+        },
+        {
+            "id": 10,
+            "year": "",
+            "make": "",
+            "model": "",
+            "image": ""
+        }
+],
+
+    "sedan mouseover": [
+        {
+            "id": 11,
+            "brand": "",
+            "image": "",
+            "fuel ecomony": "",
+            "horsepower": ""
+        },
+        {
+            "id": 12,
+            "brand": "",
+            "image": "",
+            "fuel ecomony": "",
+            "horsepower": ""
+        },
+        {
+            "id": 13,
+            "brand": "",
+            "image": "",
+            "fuel ecomony": "",
+            "horsepower": ""
+        },
+        {
+            "id": 14,
+            "brand": "",
+            "image": "",
+            "fuel ecomony": "",
+            "horsepower": ""
+        },
+        {
+            "id": 15,
+            "brand": "",
+            "image": "",
+            "fuel ecomony": "",
+            "horsepower": ""
+        },
+        {
+            "id": 16,
+            "brand": "",
+            "image": "",
+            "fuel ecomony": "",
+            "horsepower": ""
+        },
+        {
+            "id": 17,
+            "brand": "",
+            "image": "",
+            "fuel ecomony": "",
+            "horsepower": ""
+        },
+        {
+            "id": 18,
+            "brand": "",
+            "image": "",
+            "fuel ecomony": "",
+            "horsepower": ""
+        },
+        {
+            "id": 19,
+            "brand": "",
+            "image": "",
+            "fuel ecomony": "",
+            "horsepower": ""
+        },
+        {
+            "id": 20,
+            "brand": "",
+            "image": "",
+            "fuel ecomony": "",
+            "horsepower": ""
+        }
+],
+
+"suv": [
+    {
+        "id": 21,
+        "year": "",
+        "make": "",
+        "model": "",
+        "image": ""
+    },
+    {
+        "id": 22,
+        "year": "",
+        "make": "",
+        "model": "",
+        "image": ""
+    },
+    {
+        "id": 23,
+        "year": "",
+        "make": "",
+        "model": "",
+        "image": ""
+    },
+    {
+        "id": 24,
+        "year": "",
+        "make": "",
+        "model": "",
+        "image": ""
+    },
+    {
+        "id": 25,
+        "year": "",
+        "make": "",
+        "model": "",
+        "image": ""
+    },
+    {
+        "id": 26,
+        "year": "",
+        "make": "",
+        "model": "",
+        "image": ""
+    },
+    {
+        "id": 27,
+        "year": "",
+        "make": "",
+        "model": "",
+        "image": ""
+    },
+    {
+        "id": 28,
+        "year": "",
+        "make": "",
+        "model": "",
+        "image": ""
+    },
+    {
+        "id": 29,
+        "year": "",
+        "make": "",
+        "model": "",
+        "image": ""
+    },
+    {
+        "id": 30,
+        "year": "",
+        "make": "",
+        "model": "",
+        "image": ""
+    }
+],
+
+"suv mouseover": [
+    {
+        "id": 31,
+        "brand": "",
+        "image": "",
+        "fuel ecomony": "",
+        "horsepower": ""
+    },
+    {
+        "id": 32,
+        "brand": "",
+        "image": "",
+        "fuel ecomony": "",
+        "horsepower": ""
+    },
+    {
+        "id": 33,
+        "brand": "",
+        "image": "",
+        "fuel ecomony": "",
+        "horsepower": ""
+    },
+    {
+        "id": 34,
+        "brand": "",
+        "image": "",
+        "fuel ecomony": "",
+        "horsepower": ""
+    },
+    {
+        "id": 35,
+        "brand": "",
+        "image": "",
+        "fuel ecomony": "",
+        "horsepower": ""
+    },
+    {
+        "id": 36,
+        "brand": "",
+        "image": "",
+        "fuel ecomony": "",
+        "horsepower": ""
+    },
+    {
+        "id": 37,
+        "brand": "",
+        "image": "",
+        "fuel ecomony": "",
+        "horsepower": ""
+    },
+    {
+        "id": 38,
+        "brand": "",
+        "image": "",
+        "fuel ecomony": "",
+        "horsepower": ""
+    },
+    {
+        "id": 39,
+        "brand": "",
+        "image": "",
+        "fuel ecomony": "",
+        "horsepower": ""
+    },
+    {
+        "id": 40,
+        "brand": "",
+        "image": "",
+        "fuel ecomony": "",
+        "horsepower": ""
+    }
+],
+
+"trucks": [
+    {
+        "id": 41,
+        "year": "2023",
+        "make": "Toyota",
+        "model": "Tacoma",
+        "image": "https://www.kbb.com/toyota/tacoma/2024/"
+    },
+    {
+        "id": 42,
+        "year": "2023",
+        "make": "Chevrolet",
+        "model": "Colorado",
+        "image": "https://www.kbb.com/chevrolet/colorado/"
+    },
+    {
+        "id": 43,
+        "year": "2023",
+        "make": "Nissan",
+        "model": "Titan Crew Cab",
+        "image": "https://www.kbb.com/nissan/titan-xd/"
+    },
+    {
+        "id": 44,
+        "year": "2023",
+        "make": "GMC",
+        "model": "Sierra 1500 Crew Cab",
+        "image": "https://www.kbb.com/gmc/sierra-1500-crew-cab/2023/"
+    },
+    {
+        "id": 45,
+        "year": "2023",
+        "make": "Dodge",
+        "model": "Ram 1500",
+        "image": "https://www.kbb.com/ram/1500-trucks/"
+    },
+    {
+        "id": 46,
+        "year": "2023",
+        "make": "Ford",
+        "model": "F150",
+        "image": "https://www.kbb.com/ford/f150-supercrew-cab/2023/"
+    },
+    {
+        "id": 47,
+        "year": "2023",
+        "make": "Jeep",
+        "model": "Gladiator",
+        "image": "https://www.kbb.com/jeep/gladiator/"
+    },
+    {
+        "id": 48,
+        "year": "2023",
+        "make": "Hyundai",
+        "model": "Santa Cruz",
+        "image": "https://www.kbb.com/hyundai/santa-cruz/"
+    },
+    {
+        "id": 49,
+        "year": "2023",
+        "make": "Honda",
+        "model": "Ridgeline",
+        "image": "https://www.kbb.com/honda/ridgeline/"
+    },
+    {
+        "id": 50,
+        "year": "2023",
+        "make": "Ford",
+        "model": "Ranger",
+        "image": "https://www.kbb.com/ford/ranger/"
+    }
+],
+
+"truck mouseover": [
+    {
+        "id": 51,
+        "brand": "Toyota Tacoma",
+        "image": "https://www.kbb.com/toyota/tacoma/2024/",
+        "fuel ecomony": "18-21 mpg",
+        "horsepower": "159-278 hp"
+    },
+    {
+        "id": 52,
+        "brand": "Chevrolet Colorado",
+        "image": "https://www.kbb.com/chevrolet/colorado/",
+        "fuel ecomony": "18-22 mpg",
+        "horsepower": "237-310 hp"
+    },
+    {
+        "id": 53,
+        "brand": "Nissan Titan",
+        "image": "https://www.kbb.com/nissan/titan-xd/",
+        "fuel ecomony": "17-18 mpg",
+        "horsepower": "400 hp"
+    },
+    {
+        "id": 54,
+        "brand": "GMC Sierra",
+        "image": "https://www.kbb.com/gmc/sierra-1500-crew-cab/2023/",
+        "fuel ecomony": "15-24 mpg",
+        "horsepower": "277-420 hp"
+    },
+    {
+        "id": 55,
+        "brand": "Dodge Ram",
+        "image": "https://www.kbb.com/ram/1500-trucks/",
+        "fuel ecomony": "21-22 mpg",
+        "horsepower": "305 hp"
+    },
+    {
+        "id": 56,
+        "brand": "Ford F150",
+        "image": "https://www.kbb.com/ford/f150-supercrew-cab/2023/",
+        "fuel ecomony": "12-23 mpg",
+        "horsepower": "290-700 hp"
+    },
+    {
+        "id": 57,
+        "brand": "Jeep Gladiator",
+        "image": "https://www.kbb.com/jeep/gladiator/",
+        "fuel ecomony": "19 mpg",
+        "horsepower": "285 hp"
+    },
+    {
+        "id": 58,
+        "brand": "Hyundai Santa Cruz",
+        "image": "https://www.kbb.com/hyundai/santa-cruz/",
+        "fuel ecomony": "22-23 mpg",
+        "horsepower": "191-281 hp"
+    },
+    {
+        "id": 59,
+        "brand": "Honda Ridgeline",
+        "image": "https://www.kbb.com/honda/ridgeline/",
+        "fuel ecomony": "21 mpg",
+        "horsepower": "280 hp"
+    },
+    {
+        "id": 60,
+        "brand": "Ford Ranger",
+        "image": "https://www.kbb.com/ford/ranger/",
+        "fuel ecomony": "22-23 mpg",
+        "horsepower": "270 hp"
+    }
+]
+}
