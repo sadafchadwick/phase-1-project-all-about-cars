@@ -32,7 +32,7 @@ body {
     border-style: groove;
     overflow: scroll;
     height: 40vh;
-    display: flex;
+    display: table;
     flex-direction: column;
     max-width: 8cm;
     background: white;
