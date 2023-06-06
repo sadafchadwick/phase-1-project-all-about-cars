@@ -21,9 +21,7 @@ function renderSedans(cars){
         eachSedan.textContent = sedan.make + " " + sedan.model
         leftNav.append(eachSedan)
 
-        eachSedan.addEventListener('click', (e) => {
-            const carDetail = document.querySelector("#car-detail")
-
+        eachSedan.addEventListener('click', () => {
             const eachSedan = document.querySelector('#car-name')
             eachSedan.textContent = sedan.year + " " + sedan.make + " " + sedan.model
 
@@ -34,15 +32,14 @@ function renderSedans(cars){
             horsepower.textContent = "Horsepower: " + sedan.horsepower
             
             const imageBox = document.querySelector(".car-image")
-            const image = document.createElement('img')
+            const image = document.getElementById('main-car')
             image.src = sedan.image
             image.alt = sedan.make + " " + sedan.model
-            removeImage()
+            console.log(image)
             imageBox.append(image)
 
         const allSedan = document.querySelector("#car-filter")
-        allSedan.addEventListener('click', () => {handleSedans(cars)})
-
+        allSedan.addEventListener('click', () => handleSedans(cars))
         })
     })
 }
@@ -51,10 +48,6 @@ function handleSedans(cars){
     removeAll(cars)
     renderSedans(cars)
 }
-
-// function removeImage(){
-
-// }
 
 function renderSuvs(cars){
     const suv = cars[0].suv
