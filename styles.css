@@ -4,8 +4,75 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-h1 {
+#page-title {
+    text-align: center;
+    border-style: groove;
+}
+
+#review-car {
+    border-style: groove;
+}
+
+#review {
+    display: block;
+    width: 99%;
+    height: 100px;
+    border: 1px solid gray;
+    padding: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cars-container {
+    border-style: groove;
+    overflow: scroll;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 8cm;
+    background: white;
+    padding-right: 20px;
+}
+
+#car {
+    border-style: groove;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#car-filter {
+    list-style: none;
+    width: 100%;
+    height: 60px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container {
+    border-style: groove;
+    margin-bottom: 20px;
+}
+
+.car-image {
+    float: right;
+    border-style: groove;
+}
+
+#review-list li {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#cars-list-title {
     text-align: center;
 }

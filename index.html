@@ -12,35 +12,55 @@
 
 <body>
     <header>
-        <h1 id="page-title">All About Cars</h1>
-        <nav>
-            <ul id="cars-list">
+        <h1 id="page-title">Car Review</h1>
+
+        <nav class="header-container">
+            <ul id="car-filter">
+                <li>Sedan</li>
+                <li>SUV</li>
+                <li>Truck</li>
             </ul>
         </nav>
     </header>
 
+    <div class="car-image">
+        <!-- img should be retrieved by api according to which car was clicked -->
+        <img alt="car name here" src="./Images/2023-BMW-2-Series.png" />
+    </div>
+
     <main>
+        <div class="cars-container">
+            <h1 id="cars-list-title">Pick your car</h1>
+            <nav id="car-list">
+                <ul>
+                    <li>Car 1</li>
+                    <li>Car 2</li>
+                    <li>Car 3</li>
+                </ul>
+            </nav>
+        </div>
+
+
         <div class="car-detail">
-            <h2 id="car-name">Car Name Here</h2>
-            <img id="car-image" alt="car name here" src="image-placeholder" />
+            <div id="car">
+                <h2 id="car-name">Car Name Here</h2>
+                <p id="car-description">Car Description Here</p>
+            </div>
 
-            <p>
-                <em id="car-description">Car Description Here</em>
-            </p>
+            <div>
+                <form id="review-car">
+                    <h2>Review our car!</h3>
+                        <input id=review type="text" name="review" placeholder="Enter your review..." class="review" />
+                        <button type="submit">Submit Review</button>
+                </form>
 
-            <form id="add-car">
-                <h3>Add a new car!</h3>
-                <input type="text" name="name" value="" placeholder="Enter a car's name..." class="input-text" />
-                <br />
-                <input type="text" name="image" value="" placeholder="Enter a car's image URL..." class="input-text" />
-                <br />
-                <input type="text" name="review" value="" placeholder="Enter your review..." class="review" />
-                <br />
-                <input type="submit" name="submit" value="Submit Car Info" class="submit" />
-            </form>
-
+                <div>
+                    <ul id="review-list">
+                        <li>Replace with actual reviews</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </main>
-    </head>
 
     <body>
