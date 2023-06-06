@@ -97,7 +97,7 @@
                 "model": "Convertible",
                 "image": "./Images/2024-MINI-Covertible.png",
                 "reviews": "Can't get enough of driving this fun, zippy car!",
-                "moimage": "https://www.kbb.com/mini/convertible/",
+                "moimage": "./Images/2024-MINI-Convertible-Engine.png",
                 "fueleconomy": "27-31 mpg",
                 "horsepower": "134-228 hp"
             },
@@ -108,7 +108,7 @@
                 "model": "Bolt EV",
                 "image": "./Images/2023-Chevrolet-Bolt-EV.png",
                 "reviews": "Help the environment while looking good? Yes please!",
-                "moimage": "https://www.kbb.com/chevrolet/bolt-ev/",
+                "moimage": "./Images/2023-Chevrolet-Bolt EV-interior.png",
                 "fueleconomy": "EV Range 259 miles",
                 "horsepower": "200 hp"
             }
@@ -123,7 +123,7 @@
             "model": "Telluride",
             "image": "./Images/2023-Kia-Telluride.png",
             "reviews": "Tis is the 3-Row Midsize SUV Best Buy for 2023.",
-            "moimage": "3-Row Midsize SUV Best Buy for 2023",
+            "moimage": "./Images/2023-Kia-Telluride-interior.png",
             "fueleconomy": "21-23 mpg",
             "horsepower": "291 hp"
         },
@@ -134,7 +134,7 @@
             "model": "Yukon",
             "image": "https://www.kbb.com/gmc/yukon/",
             "reviews": "This SUV has an incredibly roomy 3rd-row seating!",
-            "moimage": "https://www.kbb.com/gmc/yukon/",
+            "moimage": "./Images/2023-GMC-Yukon-interior.png",
             "fueleconomy": "16-17 mpg",
             "horsepower": "355-420 hp"
         },
@@ -145,7 +145,7 @@
             "model": "Seltos",
             "image": "https://www.kbb.com/kia/seltos/",
             "reviews": "If you love the latest tech, this SUV has it all!",
-            "moimage": "https://www.kbb.com/kia/seltos/",
+            "moimage": "./Images/2024-Kia-Seltos-interior.png",
             "fueleconomy": "26-31 mpg",
             "horsepower": "146-195 hp"
         },
@@ -156,7 +156,7 @@
             "model": "Crosstrek",
             "image": "https://www.kbb.com/subaru/crosstrek/",
             "reviews": "The standard all-wheel drive lets you take this SUV anywhere!",
-            "moimage": "https://www.kbb.com/subaru/crosstrek/",
+            "moimage": "./Images/2024-Subaru-Crosstrek-interior.png",
             "fueleconomy": "29 mpg",
             "horsepower": "152-182 hp"
         },
@@ -167,7 +167,7 @@
             "model": "RAV4",
             "image": "https://www.kbb.com/toyota/rav4/",
             "reviews": "The safety features give me confidence to drive in the busy cities!",
-            "moimage": "https://www.kbb.com/toyota/rav4/",
+            "moimage": "./Images/2023-Toyota-RAV4-interior.png",
             "fueleconomy": "28-30 mpg",
             "horsepower": "203 hp"
         },
@@ -178,7 +178,7 @@
             "model": "Bronco Sport",
             "image": "./Images/2023-Ford-Bronco-Sport.png",
             "reviews": "A true classic with modern safety features!",
-            "moimage": "https://www.kbb.com/ford/bronco-sport/",
+            "moimage": "./Images/2023-Ford-Bronco Sport-interior.png",
             "fueleconomy": "23-26 mpg",
             "horsepower": "181-250 hp"
         },
@@ -189,7 +189,7 @@
             "model": "Tucson",
             "image": "https://www.kbb.com/hyundai/tucson/",
             "reviews": "For value and space, this SUV has it all!",
-            "moimage": "https://www.kbb.com/hyundai/tucson/",
+            "moimage": "./Images/2023-Hyundai-Tucson-interior.png",
             "fueleconomy": "25-28 mpg",
             "horsepower": "187 hp"
         },
@@ -200,7 +200,7 @@
             "model": "Grand Cherokee",
             "image": "https://www.kbb.com/jeep/grand-cherokee/",
             "reviews": "Amazing handling on and off the road!",
-            "moimage": "https://www.kbb.com/jeep/grand-cherokee/",
+            "moimage": "./Images/2023-Jeep-Grand Cherokee-interior.png",
             "fueleconomy": "22 mpg",
             "horsepower": "293 hp"
         },
@@ -211,7 +211,7 @@
             "model": "Suburban",
             "image": "https://www.kbb.com/chevrolet/suburban/",
             "reviews": "So much room our large family is finally able to travel in one vehicle!",
-            "moimage": "https://www.kbb.com/chevrolet/suburban/",
+            "moimage": "./Images/2023-Chevrolet-Suburban-interior.png",
             "fueleconomy": "16-17 mpg",
             "horsepower": "355-420 hp"
         },
@@ -222,7 +222,7 @@
             "model": "Tiguan",
             "image": "https://www.kbb.com/volkswagen/tiguan/",
             "reviews": "You will enjoy the European design along with the 3rd-row seating!",
-            "moimage": "https://www.kbb.com/volkswagen/tiguan/",
+            "moimage": "./Images/2023-Volkswagen-Tiguan-interior.png",
             "fueleconomy": "25-26 mpg",
             "horsepower": "184 hp"
         }
@@ -236,7 +236,7 @@
                 "model": "Tacoma",
                 "image": "./Images/2023-Toyota-Tacoma.png",
                 "reviews": "Strong truck that can stand up to punishment!",
-                "moimage": "https://www.kbb.com/toyota/tacoma/2024/",
+                "moimage": "./Images/2024-Toyota-Tacoma-interior.png",
                 "fueleconomy": "18-21 mpg",
                 "horsepower": "159-278 hp"
             },
@@ -245,9 +245,9 @@
                 "year": "2023",
                 "make": "Chevrolet",
                 "model": "Colorado",
-                "image": "./Images.2023-Chevrolet-Colorado.png",
+                "image": "./Images/2023-Chevrolet-Colorado.png",
                 "reviews": "This truck is an excellent ride and handling.",
-                "moimage": "https://www.kbb.com/chevrolet/colorado/",
+                "moimage": "./Images/2023-Chevrolet-Colorado-interior.png",
                 "fueleconomy": "18-22 mpg",
                 "horsepower": "237-310 hp"
 
@@ -259,7 +259,7 @@
                 "model": "Titan Crew Cab",
                 "image": "https://www.kbb.com/nissan/titan-xd/",
                 "reviews": "Highly capable truck with a comfortable cabin!",
-                "moimage": "https://www.kbb.com/nissan/titan-xd/",
+                "moimage": "./Images/2023-Nissan-Titan-Crew-Cab-interior.png",
                 "fueleconomy": "17-18 mpg",
                 "horsepower": "400 hp"
             },
@@ -270,7 +270,7 @@
                 "model": "Sierra 1500 Crew Cab",
                 "image": "https://www.kbb.com/gmc/sierra-1500-crew-cab/2023/",
                 "reviews": "Amazing truck! Has a strong range of engines with luxurious upper trims!",
-                "moimage": "https://www.kbb.com/gmc/sierra-1500-crew-cab/2023/",
+                "moimage": "./Images/2023-GMC-Sierra 1500-interior.png",
                 "fueleconomy": "15-24 mpg",
                 "horsepower": "277-420 hp"
             },
@@ -281,7 +281,7 @@
                 "model": "Ram 1500",
                 "image": "./Images/2023-Ram-1500.png",
                 "reviews": "Love the standard LED hitch light!",
-                "moimage": "https://www.kbb.com/ram/1500-trucks/",
+                "moimage": "./Images/2023-Ram-1500-interior.png",
                 "fueleconomy": "21-22 mpg",
                 "horsepower": "305 hp"
             },
@@ -292,7 +292,7 @@
                 "model": "F150",
                 "image": "https://www.kbb.com/ford/f150-supercrew-cab/2023/",
                 "reviews": "This is the highest-rated full-size truck of 2023.",
-                "moimage": "https://www.kbb.com/ford/f150-supercrew-cab/2023/",
+                "moimage": "./Images/2023-Ford-F150-interior.png",
                 "fueleconomy": "12-23 mpg",
                 "horsepower": "290-700 hp"
             },
@@ -303,7 +303,7 @@
                 "model": "Gladiator",
                 "image": "https://www.kbb.com/jeep/gladiator/",
                 "reviews": "Love having the convenience of a truck with the unique look of a Jeep!",
-                "moimage": "https://www.kbb.com/jeep/gladiator/",
+                "moimage": "./Images/2023-Jeep-Gladiator-interior.png",
                 "fueleconomy": "19 mpg",
                 "horsepower": "285 hp"
             },
@@ -314,7 +314,7 @@
                 "model": "Santa Cruz",
                 "image": "https://www.kbb.com/hyundai/santa-cruz/",
                 "reviews": "The SUV-like comfort with the truck-like utility can't be beat!",
-                "moimage": "https://www.kbb.com/hyundai/santa-cruz/",
+                "moimage": "./Images/2023-Hyundai-Santa Cruz-interior.png",
                 "fueleconomy": "22-23 mpg",
                 "horsepower": "191-281 hp"
             },
@@ -325,7 +325,7 @@
                 "model": "Ridgeline",
                 "image": "https://www.kbb.com/honda/ridgeline/",
                 "reviews": "You can't go wrong with an all-wheel drive truck!",
-                "moimage": "https://www.kbb.com/honda/ridgeline/",
+                "moimage": "./Images/2023-Honda-Ridgeline-interior.png",
                 "fueleconomy": "21 mpg",
                 "horsepower": "280 hp"
             },
@@ -336,7 +336,7 @@
                 "model": "Ranger",
                 "image": "https://www.kbb.com/ford/ranger/",
                 "reviews": "For a small truck this thing can tow a load!",
-                "moimage": "https://www.kbb.com/ford/ranger/",
+                "moimage": "./Images/2023-Ford-Ranger-interior.png",
                 "fueleconomy": "22-23 mpg",
                 "horsepower": "270 hp"
             }
