@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All About Cars!</title>
     <link rel="stylesheet" href="styles.css" />
-    <script defer type="text/javascript" src="/index.js"></script>
+    <script defer src="./index.js"></script>
 </head>
 
 <body>
@@ -16,9 +16,9 @@
 
         <nav class="header-container">
             <ul id="car-filter">
-                <li>Sedan</li>
-                <li>SUV</li>
-                <li>Truck</li>
+                <button type="button" id="sedan-btn">Sedan</button>
+                <button type="button" id="suv-btn">SUV</button>
+                <button type="button" id="truck-btn">Truck</button>
             </ul>
         </nav>
     </header>
@@ -32,19 +32,20 @@
         <div class="cars-container">
             <h1 id="cars-list-title">Pick your car</h1>
             <nav id="car-list">
-                <ul>
-                    <li>Car 1</li>
-                    <li>Car 2</li>
-                    <li>Car 3</li>
-                </ul>
+                <ul></ul>
             </nav>
         </div>
 
 
         <div class="car-detail">
             <div id="car">
-                <h2 id="car-name">Car Name Here</h2>
-                <p id="car-description">Car Description Here</p>
+                <h2 id="car-name"></h2>
+                <p id="car-milage"></p>
+                <p id="car-power"></p>
+            </div>
+
+            <div>
+                <ul id="review-list"></ul>
             </div>
 
             <div>
@@ -54,11 +55,6 @@
                         <button type="submit">Submit Review</button>
                 </form>
 
-                <div>
-                    <ul id="review-list">
-                        <li>Replace with actual reviews</li>
-                    </ul>
-                </div>
             </div>
         </div>
     </main>
