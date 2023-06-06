@@ -1,345 +1,346 @@
 {
     "cars":[{
-    "sedan": 
-    [
+        "sedan": 
+        [
+            {
+                "id": 1,
+                "year": "2023",
+                "make": "Honda",
+                "model": "Civic",
+                "image": "./Images/2023-Honda-Civic.png",
+                "reviews": "Best Compact Car Best Buy of 2023!",
+                "moimage": "./Images/2023-Honda-Civic-interior.png",
+                "fueleconomy": "29-36 mpg",
+                "horsepower": "158-200 hp"
+            },
+            {
+                "id": 2,
+                "year": "2022",
+                "make": "Toyota",
+                "model": "Avalon",
+                "image": "./Images/2023-Toyota-Avalon.png",
+                "reviews": "Spacious with a strong yet smooth engine!",
+                "moimage": "./Images/2022-Toyota-Avalon-interior.png",
+                "fueleconomy": "25-26 mpg",
+                "horsepower": "301 hp"
+            },
+            {
+                "id": 3,
+                "year": "2023",
+                "make": "Mazda",
+                "model": "MX-5 Miata",
+                "image": "./Images/2023--MAZDA-MX-5-Miata.png",
+                "reviews": "Great looking car built to last!",
+                "moimage": "./Images/2023-MAZDA-MX-5 Miata-interior.png",
+                "fueleconomy": "29-30 mpg",
+                "horsepower": "181 hp"
+            },
+            {
+                "id": 4,
+                "year": "2022",
+                "make": "Hyundai",
+                "model": "Accent",
+                "image": "./Images/2022-Hyundai-Accent.png",
+                "reviews": "This car has amazing fuel economy!",
+                "moimage": "./Images/2022-Hyundai-Accent-interior.png",
+                "fueleconomy": "33-36 mpg",
+                "horsepower": "120 hp"
+            },
+            {
+                "id": 5,
+                "year": "2023",
+                "make": "Kia",
+                "model": "Niro",
+                "image": "./Images/2023-KIA-Niro.png",
+                "reviews": "The total redesign gives this car a unique look I love!",
+                "moimage": "./Images/2023-Kia-Niro-interior.png",
+                "fueleconomy": "49 mpg",
+                "horsepower": "139 hp"
+            },
+            {
+                "id": 6,
+                "year": "2023",
+                "make": "Chevrolet",
+                "model": "Corvette",
+                "image": "./Images/2023-Chevy-Corvette.png",
+                "reviews": "Unmatched performance and styling!",
+                "moimage": "./Images/2023-Chevrolet-Corvette-interior.png",
+                "fueleconomy": "15-19 mpg",
+                "horsepower": "490-670 hp"
+            },
+            {
+                "id": 7,
+                "year": "2023",
+                "make": "BMW",
+                "model": "2 Series",
+                "image": "./Images/2023-BMW-2-Series.png",
+                "reviews": "You can't beat the amazing milage of this stylish car!",
+                "moimage": "./Images/2023-BMW-2 Series-interior.png",
+                "fueleconomy": "26-29 mpg",
+                "horsepower": "228-382 hp"
+            },
+            {
+                "id": 8,
+                "year": "2023",
+                "make": "Mercedes-Benz",
+                "model": "E-Class",
+                "image": "./Images/2023-Mercedes-Benz-E-Class.png",
+                "reviews": "Love the cutting-edge technology incorporated into this luxurious sedan!",
+                "moimage": "./Images/2023-Mercedes-Benz-E-Class-interior.png",
+                "fueleconomy": "24-26 mpg",
+                "horsepower": "255-362 hp"
+            },
+            {
+                "id": 9,
+                "year": "2024",
+                "make": "MINI",
+                "model": "Convertible",
+                "image": "./Images/2024-MINI-Covertible.png",
+                "reviews": "Can't get enough of driving this fun, zippy car!",
+                "moimage": "https://www.kbb.com/mini/convertible/",
+                "fueleconomy": "27-31 mpg",
+                "horsepower": "134-228 hp"
+            },
+            {
+                "id": 10,
+                "year": "2023",
+                "make": "Chevrolet",
+                "model": "Bolt EV",
+                "image": "./Images/2023-Chevrolet-Bolt-EV.png",
+                "reviews": "Help the environment while looking good? Yes please!",
+                "moimage": "https://www.kbb.com/chevrolet/bolt-ev/",
+                "fueleconomy": "EV Range 259 miles",
+                "horsepower": "200 hp"
+            }
+        ],
+
+        "suv": 
+        [
         {
-            "id": 1,
-            "year": "2023",
-            "make": "Honda",
-            "model": "Civic",
-            "image": "./Images/2023-Honda-Civic.png",
-            "reviews": "Best Compact Car Best Buy of 2023!",
-            "moimage": "https://www.kbb.com/honda/civic/",
-            "fuel ecomony": "29-36 mpg",
-            "horsepower": "158-200 hp"
-        },
-        {
-            "id": 2,
-            "year": "2022",
-            "make": "Toyota",
-            "model": "Avalon",
-            "image": "./Images/2023-Toyota-Avalon.png",
-            "reviews": "Spacious with a strong yet smooth engine!",
-            "moimage": "https://www.kbb.com/toyota/avalon/",
-            "fuel ecomony": "25-26 mpg",
-            "horsepower": "301 hp"
-        },
-        {
-            "id": 3,
-            "year": "2023",
-            "make": "Mazda",
-            "model": "MX-5 Miata",
-            "image": "./Images/2023--MAZDA-MX-5-Miata.png",
-            "reviews": "Great looking car built to last!",
-            "moimage": "https://www.kbb.com/mazda/mx-5-miata/",
-            "fuel ecomony": "29-30 mpg",
-            "horsepower": "181 hp"
-        },
-        {
-            "id": 4,
-            "year": "2022",
-            "make": "Hyundai",
-            "model": "Accent",
-            "image": "./Images/2022-Hyundai-Accent.png",
-            "reviews": "This car has amazing fuel economy!",
-            "moimage": "https://www.kbb.com/hyundai/accent/",
-            "fuel ecomony": "33-36 mpg",
-            "horsepower": "120 hp"
-        },
-        {
-            "id": 5,
+            "id": 21,
             "year": "2023",
             "make": "Kia",
-            "model": "Niro",
-            "image": "./Images/2023-KIA-Niro.png",
-            "reviews": "The total redesign gives this car a unique look I love!",
-            "moimage": "https://www.kbb.com/kia/niro/",
-            "fuel ecomony": "49 mpg",
-            "horsepower": "139 hp"
+            "model": "Telluride",
+            "image": "./Images/2023-Kia-Telluride.png",
+            "reviews": "Tis is the 3-Row Midsize SUV Best Buy for 2023.",
+            "moimage": "3-Row Midsize SUV Best Buy for 2023",
+            "fueleconomy": "21-23 mpg",
+            "horsepower": "291 hp"
         },
         {
-            "id": 6,
+            "id": 22,
             "year": "2023",
-            "make": "Chevrolet",
-            "model": "Corvette",
-            "image": "./Images/2023-Chevy-Corvette.png",
-            "reviews": "Unmatched performance and styling!",
-            "moimage": "https://www.kbb.com/chevrolet/corvette/",
-            "fuel ecomony": "15-19 mpg",
-            "horsepower": "490-670 hp"
+            "make": "GMC",
+            "model": "Yukon",
+            "image": "https://www.kbb.com/gmc/yukon/",
+            "reviews": "This SUV has an incredibly roomy 3rd-row seating!",
+            "moimage": "https://www.kbb.com/gmc/yukon/",
+            "fueleconomy": "16-17 mpg",
+            "horsepower": "355-420 hp"
         },
         {
-            "id": 7,
-            "year": "2023",
-            "make": "BMW",
-            "model": "2 Series",
-            "image": "./Images/2023-BMW-2-Series.png",
-            "reviews": "You can't beat the amazing milage of this stylish car!",
-            "moimage": "https://www.kbb.com/bmw/2-series/",
-            "fuel ecomony": "26-29 mpg",
-            "horsepower": "228-382 hp"
-        },
-        {
-            "id": 8,
-            "year": "2023",
-            "make": "Mercedes-Benz",
-            "model": "E-Class",
-            "image": "./Images/2023-Mercedes-Benz-E-Class.png",
-            "reviews": "Love the cutting-edge technology incorporated into this luxurious sedan!",
-            "moimage": "https://www.kbb.com/mercedes-benz/e-class/?bodystyle=convertible",
-            "fuel ecomony": "24-26 mpg",
-            "horsepower": "255-362 hp"
-        },
-        {
-            "id": 9,
+            "id": 23,
             "year": "2024",
-            "make": "MINI",
-            "model": "Convertible",
-            "image": "./Images/2024-MINI-Covertible.png",
-            "reviews": "Can't get enough of driving this fun, zippy car!",
-            "moimage": "https://www.kbb.com/mini/convertible/",
-            "fuel ecomony": "27-31 mpg",
-            "horsepower": "134-228 hp"
+            "make": "Kia",
+            "model": "Seltos",
+            "image": "https://www.kbb.com/kia/seltos/",
+            "reviews": "If you love the latest tech, this SUV has it all!",
+            "moimage": "https://www.kbb.com/kia/seltos/",
+            "fueleconomy": "26-31 mpg",
+            "horsepower": "146-195 hp"
         },
         {
-            "id": 10,
+            "id": 24,
+            "year": "2024",
+            "make": "Subaru",
+            "model": "Crosstrek",
+            "image": "https://www.kbb.com/subaru/crosstrek/",
+            "reviews": "The standard all-wheel drive lets you take this SUV anywhere!",
+            "moimage": "https://www.kbb.com/subaru/crosstrek/",
+            "fueleconomy": "29 mpg",
+            "horsepower": "152-182 hp"
+        },
+        {
+            "id": 25,
+            "year": "2023",
+            "make": "Toyota",
+            "model": "RAV4",
+            "image": "https://www.kbb.com/toyota/rav4/",
+            "reviews": "The safety features give me confidence to drive in the busy cities!",
+            "moimage": "https://www.kbb.com/toyota/rav4/",
+            "fueleconomy": "28-30 mpg",
+            "horsepower": "203 hp"
+        },
+        {
+            "id": 26,
+            "year": "2023",
+            "make": "Ford",
+            "model": "Bronco Sport",
+            "image": "./Images/2023-Ford-Bronco-Sport.png",
+            "reviews": "A true classic with modern safety features!",
+            "moimage": "https://www.kbb.com/ford/bronco-sport/",
+            "fueleconomy": "23-26 mpg",
+            "horsepower": "181-250 hp"
+        },
+        {
+            "id": 27,
+            "year": "2023",
+            "make": "Hyundai",
+            "model": "Tucson",
+            "image": "https://www.kbb.com/hyundai/tucson/",
+            "reviews": "For value and space, this SUV has it all!",
+            "moimage": "https://www.kbb.com/hyundai/tucson/",
+            "fueleconomy": "25-28 mpg",
+            "horsepower": "187 hp"
+        },
+        {
+            "id": 28,
+            "year": "2023",
+            "make": "Jeep",
+            "model": "Grand Cherokee",
+            "image": "https://www.kbb.com/jeep/grand-cherokee/",
+            "reviews": "Amazing handling on and off the road!",
+            "moimage": "https://www.kbb.com/jeep/grand-cherokee/",
+            "fueleconomy": "22 mpg",
+            "horsepower": "293 hp"
+        },
+        {
+            "id": 29,
             "year": "2023",
             "make": "Chevrolet",
-            "model": "Bolt EV",
-            "image": "./Images/2023-Chevrolet-Bolt-EV.png",
-            "reviews": "Help the environment while looking good? Yes please!",
-            "moimage": "https://www.kbb.com/chevrolet/bolt-ev/",
-            "fuel ecomony": "EV Range 259 miles",
-            "horsepower": "200 hp"
+            "model": "Suburban",
+            "image": "https://www.kbb.com/chevrolet/suburban/",
+            "reviews": "So much room our large family is finally able to travel in one vehicle!",
+            "moimage": "https://www.kbb.com/chevrolet/suburban/",
+            "fueleconomy": "16-17 mpg",
+            "horsepower": "355-420 hp"
+        },
+        {
+            "id": 30,
+            "year": "2023",
+            "make": "Volkswagen",
+            "model": "Tiguan",
+            "image": "https://www.kbb.com/volkswagen/tiguan/",
+            "reviews": "You will enjoy the European design along with the 3rd-row seating!",
+            "moimage": "https://www.kbb.com/volkswagen/tiguan/",
+            "fueleconomy": "25-26 mpg",
+            "horsepower": "184 hp"
         }
-    ],
+        ],
 
-    "suv": 
-    [
-    {
-        "id": 21,
-        "year": "2023",
-        "make": "Kia",
-        "model": "Telluride",
-        "image": "./Images/2023-Kia-Telluride.png",
-        "reviews": "Tis is the 3-Row Midsize SUV Best Buy for 2023.",
-        "moimage": "3-Row Midsize SUV Best Buy for 2023",
-        "fuel ecomony": "21-23 mpg",
-        "horsepower": "291 hp"
-    },
-    {
-        "id": 22,
-        "year": "2023",
-        "make": "GMC",
-        "model": "Yukon",
-        "image": "https://www.kbb.com/gmc/yukon/",
-        "reviews": "This SUV has an incredibly roomy 3rd-row seating!",
-        "moimage": "https://www.kbb.com/gmc/yukon/",
-        "fuel ecomony": "16-17 mpg",
-        "horsepower": "355-420 hp"
-    },
-    {
-        "id": 23,
-        "year": "2024",
-        "make": "Kia",
-        "model": "Seltos",
-        "image": "https://www.kbb.com/kia/seltos/",
-        "reviews": "If you love the latest tech, this SUV has it all!",
-        "moimage": "https://www.kbb.com/kia/seltos/",
-        "fuel ecomony": "26-31 mpg",
-        "horsepower": "146-195 hp"
-    },
-    {
-        "id": 24,
-        "year": "2024",
-        "make": "Subaru",
-        "model": "Crosstrek",
-        "image": "https://www.kbb.com/subaru/crosstrek/",
-        "reviews": "The standard all-wheel drive lets you take this SUV anywhere!",
-        "moimage": "https://www.kbb.com/subaru/crosstrek/",
-        "fuel ecomony": "29 mpg",
-        "horsepower": "152-182 hp"
-    },
-    {
-        "id": 25,
-        "year": "2023",
-        "make": "Toyota",
-        "model": "RAV4",
-        "image": "https://www.kbb.com/toyota/rav4/",
-        "reviews": "The safety features give me confidence to drive in the busy cities!",
-        "moimage": "https://www.kbb.com/toyota/rav4/",
-        "fuel ecomony": "28-30 mpg",
-        "horsepower": "203 hp"
-    },
-    {
-        "id": 26,
-        "year": "2023",
-        "make": "Ford",
-        "model": "Bronco Sport",
-        "image": "./Images/2023-Ford-Bronco-Sport.png",
-        "reviews": "A true classic with modern safety features!",
-        "moimage": "https://www.kbb.com/ford/bronco-sport/",
-        "fuel ecomony": "23-26 mpg",
-        "horsepower": "181-250 hp"
-    },
-    {
-        "id": 27,
-        "year": "2023",
-        "make": "Hyundai",
-        "model": "Tucson",
-        "image": "https://www.kbb.com/hyundai/tucson/",
-        "reviews": "For value and space, this SUV has it all!",
-        "moimage": "https://www.kbb.com/hyundai/tucson/",
-        "fuel ecomony": "25-28 mpg",
-        "horsepower": "187 hp"
-    },
-    {
-        "id": 28,
-        "year": "2023",
-        "make": "Jeep",
-        "model": "Grand Cherokee",
-        "image": "https://www.kbb.com/jeep/grand-cherokee/",
-        "reviews": "Amazing handling on and off the road!",
-        "moimage": "https://www.kbb.com/jeep/grand-cherokee/",
-        "fuel ecomony": "22 mpg",
-        "horsepower": "293 hp"
-    },
-    {
-        "id": 29,
-        "year": "2023",
-        "make": "Chevrolet",
-        "model": "Suburban",
-        "image": "https://www.kbb.com/chevrolet/suburban/",
-        "reviews": "So much room our large family is finally able to travel in one vehicle!",
-        "moimage": "https://www.kbb.com/chevrolet/suburban/",
-        "fuel ecomony": "16-17 mpg",
-        "horsepower": "355-420 hp"
-    },
-    {
-        "id": 30,
-        "year": "2023",
-        "make": "Volkswagen",
-        "model": "Tiguan",
-        "image": "https://www.kbb.com/volkswagen/tiguan/",
-        "reviews": "You will enjoy the European design along with the 3rd-row seating!",
-        "moimage": "https://www.kbb.com/volkswagen/tiguan/",
-        "fuel ecomony": "25-26 mpg",
-        "horsepower": "184 hp"
-    }
-    ],
+        "trucks": [
+            {
+                "id": 41,
+                "year": "2023",
+                "make": "Toyota",
+                "model": "Tacoma",
+                "image": "./Images/2023-Toyota-Tacoma.png",
+                "reviews": "Strong truck that can stand up to punishment!",
+                "moimage": "https://www.kbb.com/toyota/tacoma/2024/",
+                "fueleconomy": "18-21 mpg",
+                "horsepower": "159-278 hp"
+            },
+            {
+                "id": 42,
+                "year": "2023",
+                "make": "Chevrolet",
+                "model": "Colorado",
+                "image": "./Images.2023-Chevrolet-Colorado.png",
+                "reviews": "This truck is an excellent ride and handling.",
+                "moimage": "https://www.kbb.com/chevrolet/colorado/",
+                "fueleconomy": "18-22 mpg",
+                "horsepower": "237-310 hp"
 
-    "trucks": 
-    [
-    {
-        "id": 41,
-        "year": "2023",
-        "make": "Toyota",
-        "model": "Tacoma",
-        "image": "./Images/2023-Toyota-Tacoma.png",
-        "reviews": "Strong truck that can stand up to punishment!",
-        "moimage": "https://www.kbb.com/toyota/tacoma/2024/",
-        "fuel ecomony": "18-21 mpg",
-        "horsepower": "159-278 hp"
-    },
-    {
-        "id": 42,
-        "year": "2023",
-        "make": "Chevrolet",
-        "model": "Colorado",
-        "image": "./Images.2023-Chevrolet-Colorado.png",
-        "reviews": "This truck is an excellent ride and handling.",
-        "moimage": "https://www.kbb.com/chevrolet/colorado/",
-        "fuel ecomony": "18-22 mpg",
-        "horsepower": "237-310 hp"
-
-    },
-    {
-        "id": 43,
-        "year": "2023",
-        "make": "Nissan",
-        "model": "Titan Crew Cab",
-        "image": "https://www.kbb.com/nissan/titan-xd/",
-        "reviews": "Highly capable truck with a comfortable cabin!",
-        "moimage": "https://www.kbb.com/nissan/titan-xd/",
-        "fuel ecomony": "17-18 mpg",
-        "horsepower": "400 hp"
-    },
-    {
-        "id": 44,
-        "year": "2023",
-        "make": "GMC",
-        "model": "Sierra 1500 Crew Cab",
-        "image": "https://www.kbb.com/gmc/sierra-1500-crew-cab/2023/",
-        "reviews": "Amazing truck! Has a strong range of engines with luxurious upper trims!",
-        "moimage": "https://www.kbb.com/gmc/sierra-1500-crew-cab/2023/",
-        "fuel ecomony": "15-24 mpg",
-        "horsepower": "277-420 hp"
-    },
-    {
-        "id": 45,
-        "year": "2023",
-        "make": "Dodge",
-        "model": "Ram 1500",
-        "image": "./Images/2023-Ram-1500.png",
-        "reviews": "Love the standard LED hitch light!",
-        "moimage": "https://www.kbb.com/ram/1500-trucks/",
-        "fuel ecomony": "21-22 mpg",
-        "horsepower": "305 hp"
-    },
-    {
-        "id": 46,
-        "year": "2023",
-        "make": "Ford",
-        "model": "F150",
-        "image": "https://www.kbb.com/ford/f150-supercrew-cab/2023/",
-        "reviews": "This is the highest-rated full-size truck of 2023.",
-        "moimage": "https://www.kbb.com/ford/f150-supercrew-cab/2023/",
-        "fuel ecomony": "12-23 mpg",
-        "horsepower": "290-700 hp"
-    },
-    {
-        "id": 47,
-        "year": "2023",
-        "make": "Jeep",
-        "model": "Gladiator",
-        "image": "https://www.kbb.com/jeep/gladiator/",
-        "reviews": "Love having the convenience of a truck with the unique look of a Jeep!",
-        "moimage": "https://www.kbb.com/jeep/gladiator/",
-        "fuel ecomony": "19 mpg",
-        "horsepower": "285 hp"
-    },
-    {
-        "id": 48,
-        "year": "2023",
-        "make": "Hyundai",
-        "model": "Santa Cruz",
-        "image": "https://www.kbb.com/hyundai/santa-cruz/",
-        "reviews": "The SUV-like comfort with the truck-like utility can't be beat!",
-        "moimage": "https://www.kbb.com/hyundai/santa-cruz/",
-        "fuel ecomony": "22-23 mpg",
-        "horsepower": "191-281 hp"
-    },
-    {
-        "id": 49,
-        "year": "2023",
-        "make": "Honda",
-        "model": "Ridgeline",
-        "image": "https://www.kbb.com/honda/ridgeline/",
-        "reviews": "You can't go wrong with an all-wheel drive truck!",
-        "moimage": "https://www.kbb.com/honda/ridgeline/",
-        "fuel ecomony": "21 mpg",
-        "horsepower": "280 hp"
-    },
-    {
-        "id": 50,
-        "year": "2023",
-        "make": "Ford",
-        "model": "Ranger",
-        "image": "https://www.kbb.com/ford/ranger/",
-        "reviews": "For a small truck this thing can tow a load!",
-        "moimage": "https://www.kbb.com/ford/ranger/",
-        "fuel ecomony": "22-23 mpg",
-        "horsepower": "270 hp"
+            },
+            {
+                "id": 43,
+                "year": "2023",
+                "make": "Nissan",
+                "model": "Titan Crew Cab",
+                "image": "https://www.kbb.com/nissan/titan-xd/",
+                "reviews": "Highly capable truck with a comfortable cabin!",
+                "moimage": "https://www.kbb.com/nissan/titan-xd/",
+                "fueleconomy": "17-18 mpg",
+                "horsepower": "400 hp"
+            },
+            {
+                "id": 44,
+                "year": "2023",
+                "make": "GMC",
+                "model": "Sierra 1500 Crew Cab",
+                "image": "https://www.kbb.com/gmc/sierra-1500-crew-cab/2023/",
+                "reviews": "Amazing truck! Has a strong range of engines with luxurious upper trims!",
+                "moimage": "https://www.kbb.com/gmc/sierra-1500-crew-cab/2023/",
+                "fueleconomy": "15-24 mpg",
+                "horsepower": "277-420 hp"
+            },
+            {
+                "id": 45,
+                "year": "2023",
+                "make": "Dodge",
+                "model": "Ram 1500",
+                "image": "./Images/2023-Ram-1500.png",
+                "reviews": "Love the standard LED hitch light!",
+                "moimage": "https://www.kbb.com/ram/1500-trucks/",
+                "fueleconomy": "21-22 mpg",
+                "horsepower": "305 hp"
+            },
+            {
+                "id": 46,
+                "year": "2023",
+                "make": "Ford",
+                "model": "F150",
+                "image": "https://www.kbb.com/ford/f150-supercrew-cab/2023/",
+                "reviews": "This is the highest-rated full-size truck of 2023.",
+                "moimage": "https://www.kbb.com/ford/f150-supercrew-cab/2023/",
+                "fueleconomy": "12-23 mpg",
+                "horsepower": "290-700 hp"
+            },
+            {
+                "id": 47,
+                "year": "2023",
+                "make": "Jeep",
+                "model": "Gladiator",
+                "image": "https://www.kbb.com/jeep/gladiator/",
+                "reviews": "Love having the convenience of a truck with the unique look of a Jeep!",
+                "moimage": "https://www.kbb.com/jeep/gladiator/",
+                "fueleconomy": "19 mpg",
+                "horsepower": "285 hp"
+            },
+            {
+                "id": 48,
+                "year": "2023",
+                "make": "Hyundai",
+                "model": "Santa Cruz",
+                "image": "https://www.kbb.com/hyundai/santa-cruz/",
+                "reviews": "The SUV-like comfort with the truck-like utility can't be beat!",
+                "moimage": "https://www.kbb.com/hyundai/santa-cruz/",
+                "fueleconomy": "22-23 mpg",
+                "horsepower": "191-281 hp"
+            },
+            {
+                "id": 49,
+                "year": "2023",
+                "make": "Honda",
+                "model": "Ridgeline",
+                "image": "https://www.kbb.com/honda/ridgeline/",
+                "reviews": "You can't go wrong with an all-wheel drive truck!",
+                "moimage": "https://www.kbb.com/honda/ridgeline/",
+                "fueleconomy": "21 mpg",
+                "horsepower": "280 hp"
+            },
+            {
+                "id": 50,
+                "year": "2023",
+                "make": "Ford",
+                "model": "Ranger",
+                "image": "https://www.kbb.com/ford/ranger/",
+                "reviews": "For a small truck this thing can tow a load!",
+                "moimage": "https://www.kbb.com/ford/ranger/",
+                "fueleconomy": "22-23 mpg",
+                "horsepower": "270 hp"
+            }
+        ]
     }
 ]
-}]}
+}
