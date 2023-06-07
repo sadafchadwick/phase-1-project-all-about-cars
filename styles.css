@@ -76,3 +76,7 @@ body {
 #cars-list-title {
     text-align: center;
 }
+
+.detail-image {
+    border-radius: 50;
+}

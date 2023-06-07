@@ -1,184 +1,127 @@
 fetch('http://localhost:3000/cars')
     .then(r => r.json())
     .then(cars => {
-        renderAllCars(cars)
+        init(cars)
     })
-    
+
+// HTML VARIABLES
 const leftNav = document.querySelector("#car-list")
 
-function renderAllCars(cars){
-    renderAllNames(cars)
-    renderSedans(cars)
-    renderSuvs(cars)
-    renderTrucks(cars)
+
+
+function init(cars){
+    // API VARIABLES
+    const sedans = cars[0].sedan
+    const trucks = cars[0].trucks
+    const suvs = cars[0].suv
+
+    addCarsToNav(sedans)
+    addCarsToNav(trucks)
+    addCarsToNav(suvs)
 }
 
-function renderAllNames(cars){
-    renderSedans(cars)
-    renderSuvs(cars)
-    renderTrucks(cars)
-
-    const allCars = document.querySelector("#all-cars-btn")
-    allCars.addEventListener('click', () => {showCarsList(cars)})
-}
-
-function renderSedans(cars){
-    const sedan = cars[0].sedan
-    sedan.forEach(sedan => {
-        const line =document.createElement('li')
-        const eachSedan = document.createElement('button')
-        eachSedan.textContent = sedan.make + " " + sedan.model
-        leftNav.append(line)
-
-    const allSedan = document.querySelector("#sedan-btn")
-    allSedan.addEventListener('click', () => {showSedansList(cars)})
-
-    eachSedan.addEventListener('click', function() {
-        const carDetail = document.querySelector("#car")
-        const oneSedan = document.querySelector('#car-name')
-        oneSedan.textContent = sedan.year + " " + sedan.make + " " + sedan.model
-
-        const fuel = document.querySelector("#car-milage")
-        fuel.textContent = "Fuel Economy: " + sedan.fueleconomy
+function addCarsToNav(cars){
     
-        const horsepower = document.querySelector("#car-power")
-        horsepower.textContent = "Horsepower: " + sedan.horsepower
+    cars.forEach(car => {
+        const eachCar = document.createElement('button')
+        eachCar.textContent = car.make + " " + car.model
+        leftNav.append(eachCar)
+        eachCar.addEventListener('click', () => {
+            navClickEvent(car)
+        })
+    })   
+}
 
-        const reviews = document.querySelector("#review-list")
-        const showReviews = document.createElement('li')
-        showReviews.textContent = sedan.reviews
-        removeExtraList(reviews)
-        reviews.append(showReviews)
+function navClickEvent(car) {
+    const oneCar = document.getElementById('car-name')
+    oneCar.textContent = car.year + " " + car.make + " " + car.model
 
-        //const imageBox = document.querySelector(".car-image")
-        const image = document.querySelector("#main-car")
-        image.src = sedan.image
-        image.alt = sedan.make + " " + sedan.model
+    const fuel = document.getElementById('car-milage')
+    fuel.textContent = "Fuel Economy: " + car.fueleconomy
 
-    image.addEventListener("mouseover", () => {image.src = sedan.moimage})
-    image.addEventListener("mouseout", () => {image.src = sedan.image})
-    })
-    line.append(eachSedan)
+    const horsepower = document.getElementById('car-power')
+    horsepower.textContent = "Horsepower: " + car.horsepower
+
+    const defaultReview = document.getElementById('default-review')
+    defaultReview.textContent = car.reviews
+
+    const image = document.getElementById('main-car')
+    image.src = car.image
+    image.alt = car.make + " " + car.model
+    image.addEventListener('mouseover', () => {
+        imageMouseoverEvent(car)
     })
 }
 
-function renderSuvs(cars){
-    const suv = cars[0].suv
-    suv.forEach(suv => {
-        const line =document.createElement('li')
-        const eachSuv = document.createElement('button')
-        eachSuv.textContent = suv.make + " " + suv.model
-        leftNav.append(line)
+function imageMouseoverEvent(car){
+    const imageContainer = document.getElementById('car-image')
+    console.log(imageContainer)
 
-    const allSuv = document.querySelector("#suv-btn")
-    allSuv.addEventListener('click', () => {showSuvsList(cars)})
+    // const detailImage = document.createElement('img')
+    // detailImage.src = car.moimage
+    // detailImage.className = 'detail-image'
 
-    eachSuv.addEventListener('click', function() {
-        const carDetail = document.querySelector("#car")
-        const oneSuv = document.querySelector('#car-name')
-        oneSuv.textContent = suv.year + " " + suv.make + " " + suv.model
+    // imageContainer.append(detailImage)
+    // console.log('working')
+}
 
-        const fuel = document.querySelector("#car-milage")
-        fuel.textContent = "Fuel Economy: " + suv.fueleconomy
+// function renderAllNames(cars){
+//     renderSedans(cars)
+//     renderSuvs(cars)
+//     renderTrucks(cars)
+
+//     const allCars = document.querySelector("#all-cars-btn")
+//     allCars.addEventListener('click', () => {showCarsList(cars)})
+// }
+
+// function renderSedans(cars){
+//     const sedan = cars[0].sedan
+//     sedan.forEach(sedan => {
+//         // const line = document.createElement('li')
+//         const eachSedan = document.createElement('button')
+//         eachSedan.textContent = sedan.make + " " + sedan.model
+//         leftNav.append(eachSedan)
+
+//     const allSedan = document.querySelector("#sedan-btn")
+//     allSedan.addEventListener('click', () => {showSedansList(cars)})
+
+//     eachSedan.addEventListener('click', function() {
+//         const oneSedan = document.querySelector('#car-name')
+//         oneSedan.textContent = sedan.year + " " + sedan.make + " " + sedan.model
+
+//         const fuel = document.querySelector("#car-milage")
+//         fuel.textContent = "Fuel Economy: " + sedan.fueleconomy
     
-        const horsepower = document.querySelector("#car-power")
-        horsepower.textContent = "Horsepower: " + suv.horsepower
+//         const horsepower = document.querySelector("#car-power")
+//         horsepower.textContent = "Horsepower: " + sedan.horsepower
 
-        const reviews = document.querySelector("#review-list")
-        const showReviews = document.createElement('li')
-        showReviews.textContent = suv.reviews
-        removeExtraList(reviews)
-        reviews.append(showReviews)
+//         const reviews = document.querySelector("#review-list")
+//         const showReviews = document.createElement('li')
+//         showReviews.textContent = sedan.reviews
+//         removeExtraList(reviews)
+//         reviews.append(showReviews)
 
-        const imageBox = document.querySelector(".car-image")
-        const image = document.querySelector("#main-car")
-        image.src = suv.image
-        image.alt = suv.make + " " + suv.model
+//         const image = document.querySelector("#main-car")
+//         image.src = sedan.image
+//         image.alt = sedan.make + " " + sedan.model
 
-    image.addEventListener("mouseover", () => {image.src = suv.moimage})
-    image.addEventListener("mouseout", () => {image.src = suv.image})
-    })
-    line.append(eachSuv)
-    })
-}
+//     image.addEventListener("mouseover", () => {image.src = sedan.moimage})
+//     image.addEventListener("mouseout", () => {image.src = sedan.image})
+//     })
+//     // line.append(eachSedan)
+//     })
+// }
 
-function renderTrucks(cars){
-    const truck = cars[0].trucks
-    truck.forEach(truck => {
-        const line =document.createElement('li')
-        const eachTruck = document.createElement('button')
-        eachTruck.textContent = truck.make + " " + truck.model
-        leftNav.append(line)
+// 
 
-    const allTrucks = document.querySelector("#truck-btn")
-    allTrucks.addEventListener('click', () => {showTrucksList(cars)})
-
-    eachTruck.addEventListener('click', function() {
-        const carDetail = document.querySelector("#car")
-        const oneTruck = document.querySelector('#car-name')
-        oneTruck.textContent = truck.year + " " + truck.make + " " + truck.model
-
-        const fuel = document.querySelector("#car-milage")
-        fuel.textContent = "Fuel Economy: " + truck.fueleconomy
-    
-        const horsepower = document.querySelector("#car-power")
-        horsepower.textContent = "Horsepower: " + truck.horsepower
-
-        const reviews = document.querySelector("#review-list")
-        const showReviews = document.createElement('li')
-        showReviews.textContent = truck.reviews
-        removeExtraList(reviews)
-        reviews.append(showReviews)
-
-        const imageBox = document.querySelector(".car-image")
-        const image = document.querySelector("#main-car")
-        image.src = truck.image
-        image.alt = truck.make + " " + truck.model
-
-    image.addEventListener("mouseover", () => {image.src = truck.moimage})
-    image.addEventListener("mouseout", () => {image.src = truck.image})
-    })
-    line.append(eachTruck)
-    })
-}
-
-const reviewForm = document.querySelector("#review-car")
-reviewForm.addEventListener('submit', (e) => {
-    e.preventDefault()
-    const reviewList = document.querySelector("#review-list")
-    const newReview = document.createElement('li')
-    newReview.textContent = e.target.review.value
-    console.log(e.target.review.value)
-    reviewForm.reset()
-    reviewList.append(newReview)
-})
-
-function showCarsList(cars){
-    removeAll(cars)
-    renderAllNames(cars)
-}
-
-function showSedansList(cars){
-    removeAll(cars)
-    renderSedans(cars)
-}
-
-function showSuvsList(cars){
-    removeAll(cars)
-    renderSuvs(cars)
-}
-
-function showTrucksList(cars){
-    removeAll(cars)
-    renderTrucks(cars)
-}
-
-function removeAll(cars){
-    leftNav.innerHTML = " "
-}
-
-function removeExtraList(parentElement) {
-    while (parentElement.firstChild) {
-        parentElement.removeChild(parentElement.firstChild)
-    }
-}
+// EVENT LISTENER FOR REVIEWS
+// const reviewForm = document.querySelector("#review-car")
+// reviewForm.addEventListener('submit', (e) => {
+//     e.preventDefault()
+//     const reviewList = document.querySelector("#review-list")
+//     const newReview = document.createElement('li')
+//     newReview.textContent = e.target.review.value
+//     console.log(e.target.review.value)
+//     reviewForm.reset()
+//     reviewList.append(newReview)
+// })
