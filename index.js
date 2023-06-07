@@ -7,9 +7,19 @@ fetch('http://localhost:3000/cars')
 const leftNav = document.querySelector("#car-list")
 
 function renderAllCars(cars){
+    renderAllNames(cars)
     renderSedans(cars)
     renderSuvs(cars)
     renderTrucks(cars)
+}
+
+function renderAllNames(cars){
+    renderSedans(cars)
+    renderSuvs(cars)
+    renderTrucks(cars)
+
+    const allCars = document.querySelector("#all-cars-btn")
+    allCars.addEventListener('click', () => {showCarsList(cars)})
 }
 
 function renderSedans(cars){
@@ -37,9 +47,10 @@ function renderSedans(cars){
         const reviews = document.querySelector("#review-list")
         const showReviews = document.createElement('li')
         showReviews.textContent = sedan.reviews
+        removeExtraList(reviews)
         reviews.append(showReviews)
 
-        const imageBox = document.querySelector(".car-image")
+        //const imageBox = document.querySelector(".car-image")
         const image = document.querySelector("#main-car")
         image.src = sedan.image
         image.alt = sedan.make + " " + sedan.model
@@ -48,7 +59,6 @@ function renderSedans(cars){
     image.addEventListener("mouseout", () => {image.src = sedan.image})
     })
     line.append(eachSedan)
-    
     })
 }
 
@@ -77,6 +87,7 @@ function renderSuvs(cars){
         const reviews = document.querySelector("#review-list")
         const showReviews = document.createElement('li')
         showReviews.textContent = suv.reviews
+        removeExtraList(reviews)
         reviews.append(showReviews)
 
         const imageBox = document.querySelector(".car-image")
@@ -116,6 +127,7 @@ function renderTrucks(cars){
         const reviews = document.querySelector("#review-list")
         const showReviews = document.createElement('li')
         showReviews.textContent = truck.reviews
+        removeExtraList(reviews)
         reviews.append(showReviews)
 
         const imageBox = document.querySelector(".car-image")
@@ -141,6 +153,11 @@ reviewForm.addEventListener('submit', (e) => {
     reviewList.append(newReview)
 })
 
+function showCarsList(cars){
+    removeAll(cars)
+    renderAllNames(cars)
+}
+
 function showSedansList(cars){
     removeAll(cars)
     renderSedans(cars)
@@ -158,4 +175,10 @@ function showTrucksList(cars){
 
 function removeAll(cars){
     leftNav.innerHTML = " "
+}
+
+function removeExtraList(parentElement) {
+    while (parentElement.firstChild) {
+        parentElement.removeChild(parentElement.firstChild)
+    }
 }
