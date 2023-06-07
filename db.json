@@ -111,7 +111,7 @@
                 "year": "2024",
                 "make": "MINI",
                 "model": "Convertible",
-                "image": "./Images/2024-MINI-Convertible.png",
+                "image": "./Images/2024-MINI-Covertible.png",
                 "reviews": "Can't get enough of driving this fun, zippy car!",
                 "moimage": "./Images/2024-MINI-Convertible-Engine.png",
                 "fueleconomy": "27-31 mpg",
@@ -136,136 +136,116 @@
 
         "suv": 
         [
-            {
-                "id": 21,
-                "year": "2023",
-                "make": "Kia",
-                "model": "Telluride",
-                "image": "./Images/2023-Kia-Telluride.png",
-                "reviews": "This is the 3-Row Midsize SUV Best Buy for 2023.",
-                "moimage": "./Images/2023-Kia-Telluride-interior.png",
-                "fueleconomy": "21-23 mpg",
-                "horsepower": "291 hp",
-                "SMlogo": "./Images/kia_small.png",
-                "XLlogo": "./Images/kia_large.png"
-            },
-            {
-                "id": 22,
-                "year": "2023",
-                "make": "GMC",
-                "model": "Yukon",
-                "image": "./Images/2023-GMC-Yukon.png",
-                "reviews": "This SUV has an incredibly roomy 3rd-row seating!",
-                "moimage": "./Images/2023-GMC-Yukon-interior.png",
-                "fueleconomy": "16-17 mpg",
-                "horsepower": "355-420 hp",
-                "SMlogo": 
-                "XLlogo":
-            },
-            {
-                "id": 23,
-                "year": "2024",
-                "make": "Kia",
-                "model": "Seltos",
-                "image": "./Images/2024-Kia-Seltos.png",
-                "reviews": "If you love the latest tech, this SUV has it all!",
-                "moimage": "./Images/2024-Kia-Seltos-interior.png",
-                "fueleconomy": "26-31 mpg",
-                "horsepower": "146-195 hp",
-                "SMlogo": "./Images/kia_small.png",
-                "XLlogo": "./Images/kia_large.png"
-            },
-            {
-                "id": 24,
-                "year": "2024",
-                "make": "Subaru",
-                "model": "Crosstrek",
-                "image": "./Images/2024-Subaru-Crosstrek.png",
-                "reviews": "The standard all-wheel drive lets you take this SUV anywhere!",
-                "moimage": "./Images/2024-Subaru-Crosstrek-interior.png",
-                "fueleconomy": "29 mpg",
-                "horsepower": "152-182 hp",
-                "SMlogo": 
-                "XLlogo":
-            },
-            {
-                "id": 25,
-                "year": "2023",
-                "make": "Toyota",
-                "model": "RAV4",
-                "image": "./Images/2023-Toyota-RAV4.png",
-                "reviews": "The safety features give me confidence to drive in the busy cities!",
-                "moimage": "./Images/2023-Toyota-RAV4-interior.png",
-                "fueleconomy": "28-30 mpg",
-                "horsepower": "203 hp",
-                "SMlogo": "./Images/toyota__small.png",
-                "XLlogo": "./Images/toyota_large.png"
-            },
-            {
-                "id": 26,
-                "year": "2023",
-                "make": "Ford",
-                "model": "Bronco Sport",
-                "image": "./Images/2023-Ford-Bronco-Sport.png",
-                "reviews": "A true classic with modern safety features!",
-                "moimage": "./Images/2023-Ford-Bronco Sport-interior.png",
-                "fueleconomy": "23-26 mpg",
-                "horsepower": "181-250 hp",
-                "SMlogo": "./Images/ford_small.png",
-                "XLlogo": "./Images/ford_large.png"
-            },
-            {
-                "id": 27,
-                "year": "2023",
-                "make": "Hyundai",
-                "model": "Tucson",
-                "image": "./Images/2023-Hyundai-Tucson.png",
-                "reviews": "For value and space, this SUV has it all!",
-                "moimage": "./Images/2023-Hyundai-Tucson-interior.png",
-                "fueleconomy": "25-28 mpg",
-                "horsepower": "187 hp",
-                "SMlogo": "./Images/hyundai_small.png",
-                "XLlogo": "./Images/hyundai_large.png"
-            },
-            {
-                "id": 28,
-                "year": "2023",
-                "make": "Jeep",
-                "model": "Grand Cherokee",
-                "image": "./Images/2023-Jeep-Grand Cherokee.png",
-                "reviews": "Amazing handling on and off the road!",
-                "moimage": "./Images/2023-Jeep-Grand Cherokee-interior.png",
-                "fueleconomy": "22 mpg",
-                "horsepower": "293 hp",
-                "SMlogo":
-                "XLlogo":
-            },
-            {
-                "id": 29,
-                "year": "2023",
-                "make": "Chevrolet",
-                "model": "Suburban",
-                "image": "./Images/2023-Chevrolet-Suburban.png",
-                "reviews": "So much room our large family is finally able to travel in one vehicle!",
-                "moimage": "./Images/2023-Chevrolet-Suburban-interior.png",
-                "fueleconomy": "16-17 mpg",
-                "horsepower": "355-420 hp",
-                "SMlogo": "./Images/chevy_small.png",
-                "XLlogo": ".Images/chevy_large.png"
-            },
-            {
-                "id": 30,
-                "year": "2023",
-                "make": "Volkswagen",
-                "model": "Tiguan",
-                "image": "./Images/2023-Jeep-Grand Cherokee.png",
-                "reviews": "You will enjoy the European design along with the 3rd-row seating!",
-                "moimage": "./Images/2023-Volkswagen-Tiguan-interior.png",
-                "fueleconomy": "25-26 mpg",
-                "horsepower": "184 hp",
-                "SMlogo":
-                "XLlogo":
-            }
+        {
+            "id": 21,
+            "year": "2023",
+            "make": "Kia",
+            "model": "Telluride",
+            "image": "./Images/2023-Kia-Telluride.png",
+            "reviews": "This is the 3-Row Midsize SUV Best Buy for 2023.",
+            "moimage": "./Images/2023-Kia-Telluride-interior.png",
+            "fueleconomy": "21-23 mpg",
+            "horsepower": "291 hp"
+        },
+        {
+            "id": 22,
+            "year": "2023",
+            "make": "GMC",
+            "model": "Yukon",
+            "image": "./Images/2023-GMC-Yukon.png",
+            "reviews": "This SUV has an incredibly roomy 3rd-row seating!",
+            "moimage": "./Images/2023-GMC-Yukon-interior.png",
+            "fueleconomy": "16-17 mpg",
+            "horsepower": "355-420 hp"
+        },
+        {
+            "id": 23,
+            "year": "2024",
+            "make": "Kia",
+            "model": "Seltos",
+            "image": "2024-Kia-Seltos.png",
+            "reviews": "If you love the latest tech, this SUV has it all!",
+            "moimage": "./Images/2024-Kia-Seltos-interior.png",
+            "fueleconomy": "26-31 mpg",
+            "horsepower": "146-195 hp"
+        },
+        {
+            "id": 24,
+            "year": "2024",
+            "make": "Subaru",
+            "model": "Crosstrek",
+            "image": "./Images/2024-Subaru-Crosstrek.png",
+            "reviews": "The standard all-wheel drive lets you take this SUV anywhere!",
+            "moimage": "./Images/2024-Subaru-Crosstrek-interior.png",
+            "fueleconomy": "29 mpg",
+            "horsepower": "152-182 hp"
+        },
+        {
+            "id": 25,
+            "year": "2023",
+            "make": "Toyota",
+            "model": "RAV4",
+            "image": "./Images/2023-Toyota-RAV4.png",
+            "reviews": "The safety features give me confidence to drive in the busy cities!",
+            "moimage": "./Images/2023-Toyota-RAV4-interior.png",
+            "fueleconomy": "28-30 mpg",
+            "horsepower": "203 hp"
+        },
+        {
+            "id": 26,
+            "year": "2023",
+            "make": "Ford",
+            "model": "Bronco Sport",
+            "image": "./Images/2023-Ford-Bronco-Sport.png",
+            "reviews": "A true classic with modern safety features!",
+            "moimage": "./Images/2023-Ford-Bronco Sport-interior.png",
+            "fueleconomy": "23-26 mpg",
+            "horsepower": "181-250 hp"
+        },
+        {
+            "id": 27,
+            "year": "2023",
+            "make": "Hyundai",
+            "model": "Tucson",
+            "image": "./Images/2023-Hyundai-Tucson.png",
+            "reviews": "For value and space, this SUV has it all!",
+            "moimage": "./Images/2023-Hyundai-Tucson-interior.png",
+            "fueleconomy": "25-28 mpg",
+            "horsepower": "187 hp"
+        },
+        {
+            "id": 28,
+            "year": "2023",
+            "make": "Jeep",
+            "model": "Grand Cherokee",
+            "image": "./Images/2023-Jeep-Grand Cherokee.png",
+            "reviews": "Amazing handling on and off the road!",
+            "moimage": "./Images/2023-Jeep-Grand Cherokee-interior.png",
+            "fueleconomy": "22 mpg",
+            "horsepower": "293 hp"
+        },
+        {
+            "id": 29,
+            "year": "2023",
+            "make": "Chevrolet",
+            "model": "Suburban",
+            "image": "./Images/2023-Chevrolet-Suburban.png",
+            "reviews": "So much room our large family is finally able to travel in one vehicle!",
+            "moimage": "./Images/2023-Chevrolet-Suburban-interior.png",
+            "fueleconomy": "16-17 mpg",
+            "horsepower": "355-420 hp"
+        },
+        {
+            "id": 30,
+            "year": "2023",
+            "make": "Volkswagen",
+            "model": "Tiguan",
+            "image": "./Images/2023-Jeep-Grand Cherokee.png",
+            "reviews": "You will enjoy the European design along with the 3rd-row seating!",
+            "moimage": "./Images/2023-Volkswagen-Tiguan-interior.png",
+            "fueleconomy": "25-26 mpg",
+            "horsepower": "184 hp"
+        }
         ],
 
         "trucks": [
@@ -306,8 +286,8 @@
                 "moimage": "./Images/2023-Nissan-Titan-Crew-Cab-interior.png",
                 "fueleconomy": "17-18 mpg",
                 "horsepower": "400 hp",
-                "SMlogo":
-                "XLlogo":
+                "SMlogo":"",
+                "XLlogo":""
             },
             {
                 "id": 44,
@@ -319,8 +299,8 @@
                 "moimage": "./Images/2023-GMC-Sierra 1500-interior.png",
                 "fueleconomy": "15-24 mpg",
                 "horsepower": "277-420 hp",
-                "SMlogo":
-                "XLlogo":
+                "SMlogo":"",
+                "XLlogo":""
             },
             {
                 "id": 45,
@@ -358,8 +338,8 @@
                 "moimage": "./Images/2023-Jeep-Gladiator-interior.png",
                 "fueleconomy": "19 mpg",
                 "horsepower": "285 hp",
-                "SMlogo": 
-                "XLlogo":
+                "SMlogo": "",
+                "XLlogo": ""
             },
             {
                 "id": 48,

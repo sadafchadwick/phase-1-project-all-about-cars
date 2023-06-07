@@ -8,9 +8,13 @@
     <title>All About Cars!</title>
     <link rel="stylesheet" href="styles.css" />
     <script defer src="./index.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
-<body>
+<body class="container-fluid">
     <header>
         <h1 id="page-title"> Car-maniacs 🚗 </h1>
 
@@ -26,14 +30,15 @@
 
     <div class="car-image">
         <!-- img should be retrieved by api according to which car was clicked -->  
-    <img id="main-car">/>
+    <img id="main-car">
     </div>
 
     <main>
         <div class="cars-container">
             <h1 id="cars-list-title">Pick your car</h1>
-            <nav id="car-list">
+            <nav id="car-nav">
                 <ul>
+                    <li id="car-list"></li>
                 </ul>
             </nav>
         </div>
