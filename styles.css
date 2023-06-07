@@ -31,12 +31,13 @@ body {
 .cars-container {
     border-style: groove;
     overflow: scroll;
-    height: 40vh;
-    display: table;
+    height: 410px;
     flex-direction: column;
-    max-width: 8cm;
+    max-width: 300px;
     background: white;
-    padding-right: 20px;
+    /* padding-right: 60px;
+    padding-left: 20px; */
+    align-content: center;
 }
 
 #car {
@@ -63,7 +64,7 @@ body {
 
 .car-image {
     float: right;
-    border-style: groove;
+    /* border-style: groove; */
 }
 
 #review-list li {
@@ -79,4 +80,20 @@ body {
 
 .detail-image {
     border-radius: 50;
+}
+
+.nav-buttons {
+    width: 200px;
+    height: 50px;
+    align-content: center;
+}
+
+#car-list {
+    list-style: none;
+    height: 60px;
+    /* margin: 0 auto; */
+    display: list-item;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
 }

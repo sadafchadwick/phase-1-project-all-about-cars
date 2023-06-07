@@ -11,7 +11,9 @@
                 "reviews": "Best Compact Car Best Buy of 2023!",
                 "moimage": "./Images/2023-Honda-Civic-interior.png",
                 "fueleconomy": "29-36 mpg",
-                "horsepower": "158-200 hp"
+                "horsepower": "158-200 hp",
+                "SMlogo": "./Images/honda_small.png",
+                "XLlogo": "./Images/honda_large.png"
             },
             {
                 "id": 2,
@@ -95,7 +97,7 @@
                 "year": "2024",
                 "make": "MINI",
                 "model": "Convertible",
-                "image": "./Images/2024-MINI-Covertible.png",
+                "image": "./Images/2024-MINI-Convertible.png",
                 "reviews": "Can't get enough of driving this fun, zippy car!",
                 "moimage": "./Images/2024-MINI-Convertible-Engine.png",
                 "fueleconomy": "27-31 mpg",
@@ -143,7 +145,7 @@
             "year": "2024",
             "make": "Kia",
             "model": "Seltos",
-            "image": "2024-Kia-Seltos.png",
+            "image": "./Images/2024-Kia-Seltos.png",
             "reviews": "If you love the latest tech, this SUV has it all!",
             "moimage": "./Images/2024-Kia-Seltos-interior.png",
             "fueleconomy": "26-31 mpg",

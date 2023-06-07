@@ -1,31 +1,63 @@
 fetch('http://localhost:3000/cars')
     .then(r => r.json())
     .then(cars => {
-        init(cars)
+        filterNav(cars)
     })
 
 // HTML VARIABLES
 const leftNav = document.querySelector("#car-list")
 
+const allCarsButton = document.getElementById('all-cars-btn')
+const allSedanButton = document.getElementById('sedan-btn')
+const allSuvButton = document.getElementById('suv-btn')
+const allTruckButton = document.getElementById('truck-btn')
 
+// NAV FILTER EVENT LISTENERS
+function filterNav(cars){
+    const navList = document.getElementById('car-list')
 
-function init(cars){
-    // API VARIABLES
     const sedans = cars[0].sedan
     const trucks = cars[0].trucks
     const suvs = cars[0].suv
 
-    addCarsToNav(sedans)
-    addCarsToNav(trucks)
-    addCarsToNav(suvs)
+    allCarsButton.addEventListener('click' , () => {
+        navList.innerHTML = ""
+        
+        addCarsToNav(sedans)
+        addCarsToNav(suvs)
+        addCarsToNav(trucks)
+    })
+
+    allSedanButton.addEventListener('click' , () => {
+        navList.innerHTML = ""
+        addCarsToNav(sedans)
+    })
+
+    allSuvButton.addEventListener('click' , () => {
+        navList.innerHTML = ""
+        addCarsToNav(suvs)
+    })
+
+    allTruckButton.addEventListener('click' , () => {
+        navList.innerHTML = ""
+        addCarsToNav(trucks)
+    })
 }
 
 function addCarsToNav(cars){
     
     cars.forEach(car => {
         const eachCar = document.createElement('button')
-        eachCar.textContent = car.make + " " + car.model
-        leftNav.append(eachCar)
+        const smallLogo = document.createElement('img')
+
+        smallLogo.src = car.SMlogo
+        smallLogo.alt = car.make
+
+        eachCar.textContent = car.make + " " + car.model + ' '
+        eachCar.className = 'nav-buttons'
+        
+        eachCar.appendChild(smallLogo)
+        leftNav.appendChild(eachCar)
         eachCar.addEventListener('click', () => {
             navClickEvent(car)
         })
@@ -54,15 +86,33 @@ function navClickEvent(car) {
 }
 
 function imageMouseoverEvent(car){
-    const imageContainer = document.getElementById('car-image')
-    console.log(imageContainer)
+    const imageContainer = document.getElementById('main-car')
+    imageContainer.src = car.moimage
+    imageContainer.alt = car.make + " " + car.model + "Interior"
 
-    // const detailImage = document.createElement('img')
-    // detailImage.src = car.moimage
-    // detailImage.className = 'detail-image'
+    imageContainer.addEventListener('mouseout', () => {
+        imageContainer.src = car.image
+        imageContainer.alt = car.make + " " + car.model
+    })
+}
 
-    // imageContainer.append(detailImage)
-    // console.log('working')
+// EVENT LISTENER FOR REVIEWS
+const reviewForm = document.querySelector("#review-car")
+reviewForm.addEventListener('submit', (e) => {
+    e.preventDefault()
+    const reviewList = document.querySelector("#review-list")
+    const newReview = document.createElement('li')
+    newReview.textContent = e.target.review.value
+    console.log(e.target.review.value)
+    reviewForm.reset()
+    reviewList.append(newReview)
+    removeExtraList(newReview)
+})
+
+function removeExtraList(newReview){
+    while (newReview.firstChild) {
+        newReview.removeChild(newReview.firstChild)
+    }
 }
 
 // function renderAllNames(cars){
@@ -114,14 +164,3 @@ function imageMouseoverEvent(car){
 
 // 
 
-// EVENT LISTENER FOR REVIEWS
-// const reviewForm = document.querySelector("#review-car")
-// reviewForm.addEventListener('submit', (e) => {
-//     e.preventDefault()
-//     const reviewList = document.querySelector("#review-list")
-//     const newReview = document.createElement('li')
-//     newReview.textContent = e.target.review.value
-//     console.log(e.target.review.value)
-//     reviewForm.reset()
-//     reviewList.append(newReview)
-// })
