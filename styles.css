@@ -98,3 +98,7 @@ body {
     justify-content: space-between;
     flex-direction: column;
 }
+
+h2 {
+    font-style: oblique;
+}
