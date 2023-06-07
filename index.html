@@ -20,17 +20,17 @@
 
         <nav class="header-container">
             <ul id="car-filter">
-                <button type="button" id="all-cars-btn">All Cars</button>
-                <button type="button" id="sedan-btn">Sedans</button>
-                <button type="button" id="suv-btn">SUVs</button>
-                <button type="button" id="truck-btn">Trucks</button>
+                <button type="button" class="btn btn-danger" id="all-cars-btn">All Cars</button>
+                <button type="button" class="btn btn-danger" id="sedan-btn">Sedans</button>
+                <button type="button" class="btn btn-danger" id="suv-btn">SUVs</button>
+                <button type="button" class="btn btn-danger" id="truck-btn">Trucks</button>
             </ul>
         </nav>
     </header>
 
     <div class="car-image">
         <!-- img should be retrieved by api according to which car was clicked -->  
-    <img id="main-car">
+    <img id="main-car" class="img-circle">
     </div>
 
     <main>
@@ -52,7 +52,7 @@
             </div>
 
             <div>
-                <ul id="review-list">
+                <ul id="review-list"> 
                     <li id="default-review"></li>
                 </ul>
             </div>
@@ -61,7 +61,7 @@
                 <form id="review-car">
                     <h2>Review our car!</h3>
                         <input id=review type="text" name="review" placeholder="Enter your review..." class="review" />
-                        <button type="submit">Submit Review</button>
+                        <button type="submit" class="btn btn-dark">Submit Review</button>
                 </form>
 
             </div>

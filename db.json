@@ -24,7 +24,9 @@
                 "reviews": "Spacious with a strong yet smooth engine!",
                 "moimage": "./Images/2022-Toyota-Avalon-interior.png",
                 "fueleconomy": "25-26 mpg",
-                "horsepower": "301 hp"
+                "horsepower": "301 hp",
+                "SMlogo": "./Images/toyota_small.png",
+                "XLlogo": "./Images/toyota_large.png"
             },
             {
                 "id": 3,
@@ -35,7 +37,9 @@
                 "reviews": "Great looking car built to last!",
                 "moimage": "./Images/2023-MAZDA-MX-5 Miata-interior.png",
                 "fueleconomy": "29-30 mpg",
-                "horsepower": "181 hp"
+                "horsepower": "181 hp",
+                "SMlogo": "./Images/mazda_small.png",
+                "XLlogo": "./Images/mazda_large.png"
             },
             {
                 "id": 4,
@@ -46,7 +50,9 @@
                 "reviews": "This car has amazing fuel economy!",
                 "moimage": "./Images/2022-Hyundai-Accent-interior.png",
                 "fueleconomy": "33-36 mpg",
-                "horsepower": "120 hp"
+                "horsepower": "120 hp",
+                "SMlogo": "./Images/hyundai_small.png",
+                "XLlogo": "./Images/hyundai_large.png"
             },
             {
                 "id": 5,
@@ -57,7 +63,9 @@
                 "reviews": "The total redesign gives this car a unique look I love!",
                 "moimage": "./Images/2023-Kia-Niro-interior.png",
                 "fueleconomy": "49 mpg",
-                "horsepower": "139 hp"
+                "horsepower": "139 hp",
+                "SMlogo": "./Images/kia_small.png",
+                "XLlogo": "./Images/kia_large.png"
             },
             {
                 "id": 6,
@@ -68,7 +76,9 @@
                 "reviews": "Unmatched performance and styling!",
                 "moimage": "./Images/2023-Chevrolet-Corvette-interior.png",
                 "fueleconomy": "15-19 mpg",
-                "horsepower": "490-670 hp"
+                "horsepower": "490-670 hp",
+                "SMlogo": "./Images/chevy_small.png",
+                "XLlogo": ".Images/chevy_large.png"
             },
             {
                 "id": 7,
@@ -79,7 +89,9 @@
                 "reviews": "You can't beat the amazing milage of this stylish car!",
                 "moimage": "./Images/2023-BMW-2 Series-interior.png",
                 "fueleconomy": "26-29 mpg",
-                "horsepower": "228-382 hp"
+                "horsepower": "228-382 hp",
+                "SMlogo": "./Images/bmw_small.png",
+                "XLlogo": "./Images/bmw_large.png"
             },
             {
                 "id": 8,
@@ -90,18 +102,22 @@
                 "reviews": "Love the cutting-edge technology incorporated into this luxurious sedan!",
                 "moimage": "./Images/2023-Mercedes-Benz-E-Class-interior.png",
                 "fueleconomy": "24-26 mpg",
-                "horsepower": "255-362 hp"
+                "horsepower": "255-362 hp",
+                "SMlogo": "./Images/mercedes_small.png",
+                "XLlogo": "./Images/mercedes_large.png"
             },
             {
                 "id": 9,
                 "year": "2024",
                 "make": "MINI",
                 "model": "Convertible",
-                "image": "./Images/2024-MINI-Convertible.png",
+                "image": "./Images/2024-MINI-Covertible.png",
                 "reviews": "Can't get enough of driving this fun, zippy car!",
                 "moimage": "./Images/2024-MINI-Convertible-Engine.png",
                 "fueleconomy": "27-31 mpg",
-                "horsepower": "134-228 hp"
+                "horsepower": "134-228 hp",
+                "SMlogo": "./Images/mini_small.png",
+                "XLlogo": "./Images/mini_large.png"
             },
             {
                 "id": 10,
@@ -112,7 +128,9 @@
                 "reviews": "Help the environment while looking good? Yes please!",
                 "moimage": "./Images/2023-Chevrolet-Bolt EV-interior.png",
                 "fueleconomy": "EV Range 259 miles",
-                "horsepower": "200 hp"
+                "horsepower": "200 hp",
+                "SMlogo": "./Images/chevy_small.png",
+                "XLlogo": ".Images/chevy_large.png"
             }
         ],
 
@@ -145,7 +163,7 @@
             "year": "2024",
             "make": "Kia",
             "model": "Seltos",
-            "image": "./Images/2024-Kia-Seltos.png",
+            "image": "2024-Kia-Seltos.png",
             "reviews": "If you love the latest tech, this SUV has it all!",
             "moimage": "./Images/2024-Kia-Seltos-interior.png",
             "fueleconomy": "26-31 mpg",
@@ -240,7 +258,9 @@
                 "reviews": "Strong truck that can stand up to punishment!",
                 "moimage": "./Images/2024-Toyota-Tacoma-interior.png",
                 "fueleconomy": "18-21 mpg",
-                "horsepower": "159-278 hp"
+                "horsepower": "159-278 hp",
+                "SMlogo": "./Images/toyota__small.png",
+                "XLlogo": "./Images/toyota_large.png"
             },
             {
                 "id": 42,
@@ -251,7 +271,9 @@
                 "reviews": "This truck is an excellent ride and handling.",
                 "moimage": "./Images/2023-Chevrolet-Colorado-interior.png",
                 "fueleconomy": "18-22 mpg",
-                "horsepower": "237-310 hp"
+                "horsepower": "237-310 hp",
+                "SMlogo": "./Images/chevy_small.png",
+                "XLlogo": ".Images/chevy_large.png"
 
             },
             {
@@ -263,7 +285,9 @@
                 "reviews": "Highly capable truck with a comfortable cabin!",
                 "moimage": "./Images/2023-Nissan-Titan-Crew-Cab-interior.png",
                 "fueleconomy": "17-18 mpg",
-                "horsepower": "400 hp"
+                "horsepower": "400 hp",
+                "SMlogo":"",
+                "XLlogo":""
             },
             {
                 "id": 44,
@@ -274,7 +298,9 @@
                 "reviews": "Amazing truck! Has a strong range of engines with luxurious upper trims!",
                 "moimage": "./Images/2023-GMC-Sierra 1500-interior.png",
                 "fueleconomy": "15-24 mpg",
-                "horsepower": "277-420 hp"
+                "horsepower": "277-420 hp",
+                "SMlogo":"",
+                "XLlogo":""
             },
             {
                 "id": 45,
@@ -285,7 +311,9 @@
                 "reviews": "Love the standard LED hitch light!",
                 "moimage": "./Images/2023-Ram-1500-interior.png",
                 "fueleconomy": "21-22 mpg",
-                "horsepower": "305 hp"
+                "horsepower": "305 hp",
+                "SMlogo": "./Images/dodge-ram_small.png",
+                "XLlogo": "./Images/dodge-ram_large.png"
             },
             {
                 "id": 46,
@@ -296,7 +324,9 @@
                 "reviews": "This is the highest-rated full-size truck of 2023.",
                 "moimage": "./Images/2023-Ford-F150-interior.png",
                 "fueleconomy": "12-23 mpg",
-                "horsepower": "290-700 hp"
+                "horsepower": "290-700 hp",
+                "SMlogo": "./Images/ford_small.png",
+                "XLlogo": "./Images/ford_large.png"
             },
             {
                 "id": 47,
@@ -307,7 +337,9 @@
                 "reviews": "Love having the convenience of a truck with the unique look of a Jeep!",
                 "moimage": "./Images/2023-Jeep-Gladiator-interior.png",
                 "fueleconomy": "19 mpg",
-                "horsepower": "285 hp"
+                "horsepower": "285 hp",
+                "SMlogo": "",
+                "XLlogo": ""
             },
             {
                 "id": 48,
@@ -318,7 +350,9 @@
                 "reviews": "The SUV-like comfort with the truck-like utility can't be beat!",
                 "moimage": "./Images/2023-Hyundai-Santa Cruz-interior.png",
                 "fueleconomy": "22-23 mpg",
-                "horsepower": "191-281 hp"
+                "horsepower": "191-281 hp",
+                "SMlogo": "./Images/hyundai_small.png",
+                "XLlogo": "./Images/hyundai_large.png"
             },
             {
                 "id": 49,
@@ -329,7 +363,9 @@
                 "reviews": "You can't go wrong with an all-wheel drive truck!",
                 "moimage": "./Images/2023-Honda-Ridgeline-interior.png",
                 "fueleconomy": "21 mpg",
-                "horsepower": "280 hp"
+                "horsepower": "280 hp",
+                "SMlogo": "./Images/honda_small.png",
+                "XLlogo": "./Images/honda_large.png"
             },
             {
                 "id": 50,
@@ -340,7 +376,9 @@
                 "reviews": "For a small truck this thing can tow a load!",
                 "moimage": "./Images/2023-Ford-Ranger-interior.png",
                 "fueleconomy": "22-23 mpg",
-                "horsepower": "270 hp"
+                "horsepower": "270 hp",
+                "SMlogo": "./Images/ford_small.png",
+                "XLlogo": "./Images/ford_large.png"
             }
         ]
     }
