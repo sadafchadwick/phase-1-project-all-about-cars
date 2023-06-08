@@ -35,7 +35,7 @@
 
     <main>
         <div class="cars-container">
-            <h1 id="cars-list-title">Pick your car</h1>
+            <h1 class="alert alert-danger" id="cars-list-title">Pick your car</h1>
             <nav id="car-nav">
                 <ul>
                     <li id="car-list"></li>
@@ -46,20 +46,22 @@
 
         <div class="car-detail">
             <div id="car">
-                <h2 id="car-name"></h2>
-                <p id="car-milage"></p>
-                <p id="car-power"></p>
+                <img id="large-logo">
+                <h1 id="car-name"></h1>
+                <h3 id="car-milage"></h3>
+                <h3 id="car-power"></h3>
             </div>
 
             <div>
                 <ul id="review-list"> 
                     <li id="default-review"></li>
                 </ul>
+                <ul id="new-reviews"></ul>
             </div>
 
             <div>
                 <form id="review-car">
-                    <h2>Review our car!</h3>
+                    <h2 class="alert alert-danger">Review our car!</h2>
                         <input id=review type="text" name="review" placeholder="Enter your review..." class="review" />
                         <button type="submit" class="btn btn-dark">Submit Review</button>
                 </form>

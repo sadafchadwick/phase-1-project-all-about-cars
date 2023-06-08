@@ -45,6 +45,7 @@ body {
     margin-top: 25px;
     margin-bottom: 25px;
     padding-left: 20px;
+    height: 200px;
 }
 
 #car-filter {
@@ -75,6 +76,13 @@ body {
     margin-bottom: 20px;
 }
 
+#new-reviews li {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
 #cars-list-title {
     text-align: center;
 }
@@ -97,4 +105,22 @@ body {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
+}
+
+.img-circle {
+    height: 410px;
+}
+
+#large-logo {
+    float: right;
+}
+
+#main-car {
+    transition: all 0.3s ease-in-out;
+    position:relative;
+    top: 0px; left: 1000px;
+}
+
+h2 {
+    font-style: oblique;
 }

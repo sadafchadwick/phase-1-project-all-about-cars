@@ -78,7 +78,7 @@
                 "fueleconomy": "15-19 mpg",
                 "horsepower": "490-670 hp",
                 "SMlogo": "./Images/chevy_small.png",
-                "XLlogo": ".Images/chevy_large.png"
+                "XLlogo": "./Images/chevy_large.png"
             },
             {
                 "id": 7,
@@ -130,7 +130,7 @@
                 "fueleconomy": "EV Range 259 miles",
                 "horsepower": "200 hp",
                 "SMlogo": "./Images/chevy_small.png",
-                "XLlogo": ".Images/chevy_large.png"
+                "XLlogo": "./Images/chevy_large.png"
             }
         ],
 
@@ -145,7 +145,9 @@
             "reviews": "This is the 3-Row Midsize SUV Best Buy for 2023.",
             "moimage": "./Images/2023-Kia-Telluride-interior.png",
             "fueleconomy": "21-23 mpg",
-            "horsepower": "291 hp"
+            "horsepower": "291 hp",
+            "SMlogo": "./Images/kia_small.png",
+            "XLlogo": "./Images/kia_large.png"
         },
         {
             "id": 22,
@@ -156,18 +158,22 @@
             "reviews": "This SUV has an incredibly roomy 3rd-row seating!",
             "moimage": "./Images/2023-GMC-Yukon-interior.png",
             "fueleconomy": "16-17 mpg",
-            "horsepower": "355-420 hp"
+            "horsepower": "355-420 hp",
+            "SMlogo": "./Images/gmc_small.png",
+            "XLlogo": "./Images/gmc_large.png"
         },
         {
             "id": 23,
             "year": "2024",
             "make": "Kia",
             "model": "Seltos",
-            "image": "2024-Kia-Seltos.png",
+            "image": "./Images/2024-Kia-Seltos.png",
             "reviews": "If you love the latest tech, this SUV has it all!",
             "moimage": "./Images/2024-Kia-Seltos-interior.png",
             "fueleconomy": "26-31 mpg",
-            "horsepower": "146-195 hp"
+            "horsepower": "146-195 hp",
+            "SMlogo": "./Images/kia_small.png",
+            "XLlogo": "./Images/kia_large.png"
         },
         {
             "id": 24,
@@ -178,7 +184,9 @@
             "reviews": "The standard all-wheel drive lets you take this SUV anywhere!",
             "moimage": "./Images/2024-Subaru-Crosstrek-interior.png",
             "fueleconomy": "29 mpg",
-            "horsepower": "152-182 hp"
+            "horsepower": "152-182 hp",
+            "SMlogo": "./Images/subaru_small.png",
+            "XLlogo": "./Images/subaru_large.png"
         },
         {
             "id": 25,
@@ -189,7 +197,9 @@
             "reviews": "The safety features give me confidence to drive in the busy cities!",
             "moimage": "./Images/2023-Toyota-RAV4-interior.png",
             "fueleconomy": "28-30 mpg",
-            "horsepower": "203 hp"
+            "horsepower": "203 hp",
+            "SMlogo": "./Images/toyota_small.png",
+            "XLlogo": "./Images/toyota_large.png"
         },
         {
             "id": 26,
@@ -200,7 +210,9 @@
             "reviews": "A true classic with modern safety features!",
             "moimage": "./Images/2023-Ford-Bronco Sport-interior.png",
             "fueleconomy": "23-26 mpg",
-            "horsepower": "181-250 hp"
+            "horsepower": "181-250 hp",
+            "SMlogo": "./Images/ford_small.png",
+            "XLlogo": "./Images/ford_large.png"
         },
         {
             "id": 27,
@@ -211,7 +223,9 @@
             "reviews": "For value and space, this SUV has it all!",
             "moimage": "./Images/2023-Hyundai-Tucson-interior.png",
             "fueleconomy": "25-28 mpg",
-            "horsepower": "187 hp"
+            "horsepower": "187 hp",
+            "SMlogo": "./Images/hyundai_small.png",
+            "XLlogo": "./Images/hyundai_large.png"
         },
         {
             "id": 28,
@@ -222,7 +236,9 @@
             "reviews": "Amazing handling on and off the road!",
             "moimage": "./Images/2023-Jeep-Grand Cherokee-interior.png",
             "fueleconomy": "22 mpg",
-            "horsepower": "293 hp"
+            "horsepower": "293 hp",
+            "SMlogo": "./Images/jeep_small.png",
+            "XLlogo": "./Images/jeep_large.png"
         },
         {
             "id": 29,
@@ -233,7 +249,9 @@
             "reviews": "So much room our large family is finally able to travel in one vehicle!",
             "moimage": "./Images/2023-Chevrolet-Suburban-interior.png",
             "fueleconomy": "16-17 mpg",
-            "horsepower": "355-420 hp"
+            "horsepower": "355-420 hp",
+            "SMlogo": "./Images/chevy_small.png",
+            "XLlogo": "./Images/chevy_large.png"
         },
         {
             "id": 30,
@@ -244,7 +262,9 @@
             "reviews": "You will enjoy the European design along with the 3rd-row seating!",
             "moimage": "./Images/2023-Volkswagen-Tiguan-interior.png",
             "fueleconomy": "25-26 mpg",
-            "horsepower": "184 hp"
+            "horsepower": "184 hp",
+            "SMlogo": "./Images/volkswagen_small.png",
+            "XLlogo": "./Images/volkswagen_large.png"
         }
         ],
 
@@ -259,7 +279,7 @@
                 "moimage": "./Images/2024-Toyota-Tacoma-interior.png",
                 "fueleconomy": "18-21 mpg",
                 "horsepower": "159-278 hp",
-                "SMlogo": "./Images/toyota__small.png",
+                "SMlogo": "./Images/toyota_small.png",
                 "XLlogo": "./Images/toyota_large.png"
             },
             {
@@ -286,8 +306,8 @@
                 "moimage": "./Images/2023-Nissan-Titan-Crew-Cab-interior.png",
                 "fueleconomy": "17-18 mpg",
                 "horsepower": "400 hp",
-                "SMlogo":"",
-                "XLlogo":""
+                "SMlogo":"./Images/nissan_small.png",
+                "XLlogo":"./Images/nissan_large.png"
             },
             {
                 "id": 44,
@@ -299,8 +319,8 @@
                 "moimage": "./Images/2023-GMC-Sierra 1500-interior.png",
                 "fueleconomy": "15-24 mpg",
                 "horsepower": "277-420 hp",
-                "SMlogo":"",
-                "XLlogo":""
+                "SMlogo": "./Images/gmc_small.png",
+                "XLlogo": "./Images/gmc_large.png"
             },
             {
                 "id": 45,
@@ -338,8 +358,8 @@
                 "moimage": "./Images/2023-Jeep-Gladiator-interior.png",
                 "fueleconomy": "19 mpg",
                 "horsepower": "285 hp",
-                "SMlogo": "",
-                "XLlogo": ""
+                "SMlogo": "./Images/jeep_small.png",
+                "XLlogo": "./Images/jeep_large.png"
             },
             {
                 "id": 48,
