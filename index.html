@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Cars!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="./index.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body class="container-fluid">
+    <header>
+        <h1 id="page-title"> Car-maniacs 🚗 </h1>
+
+        <nav class="header-container">
+            <ul id="car-filter">
+                <button type="button" class="btn btn-danger" id="all-cars-btn">All Cars</button>
+                <button type="button" class="btn btn-danger" id="sedan-btn">Sedans</button>
+                <button type="button" class="btn btn-danger" id="suv-btn">SUVs</button>
+                <button type="button" class="btn btn-danger" id="truck-btn">Trucks</button>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="car-image">
+        <!-- img should be retrieved by api according to which car was clicked -->  
+    <img id="main-car" class="img-circle">
+    </div>
+
+    <main>
+        <div class="cars-container">
+            <h1 class="alert alert-danger" id="cars-list-title">Pick your car</h1>
+            <nav id="car-nav">
+                <ul>
+                    <li id="car-list"></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="car-detail">
+            <div id="car">
+                <img id="large-logo">
+                <h1 id="car-name"></h1>
+                <h3 id="car-milage"></h3>
+                <h3 id="car-power"></h3>
+            </div>
+
+            <div>
+                <ul id="review-list"> 
+                    <li id="default-review"></li>
+                </ul>
+                <ul id="new-reviews"></ul>
+            </div>
+
+            <div>
+                <form id="review-car">
+                    <h2 class="alert alert-danger">Review our car!</h2>
+                        <input id=review type="text" name="review" placeholder="Enter your review..." class="review" />
+                        <button type="submit" class="btn btn-dark">Submit Review</button>
+                </form>
+
+            </div>
+        </div>
+    </main>
+
+    <body>
