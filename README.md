@@ -45,7 +45,7 @@ Contributors names and contact info
 
 * Nolan Rummel (https://www.linkedin.com/in/nolan-rummel-06913143/)
 * Robert Khazan (khazan21@gmail.com)
-* Sadaf Chadwick (linkedin.com/in/sadaf-chadwick-106610235)
+* Sadaf Chadwick (https://www.linkedin.com/in/sadaf-chadwick-106610235/)
 
 ## Acknowledgments
 
