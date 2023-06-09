@@ -43,7 +43,7 @@ Shut down and restart server if issues occur on webpage.
 
 Contributors names and contact info
 
-* Nolan Rummel (linkedin.com/in/sadaf-chadwick-106610235)
+* Nolan Rummel (https://www.linkedin.com/in/nolan-rummel-06913143/)
 * Robert Khazan (khazan21@gmail.com)
 * Sadaf Chadwick (linkedin.com/in/sadaf-chadwick-106610235)
 
